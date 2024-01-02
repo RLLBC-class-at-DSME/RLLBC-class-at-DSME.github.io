@@ -79,11 +79,18 @@
 .subtitle-text {
     color: var(--dl-color-text);
     padding-top: var(--dl-space-space-halfunit);
+    padding-bottom: var(--dl-space-space-halfunit);
 }
 .info-text {
     color: var(--dl-color-text);
-    padding: 5px;
+    padding: 2px;
 }
+.footer-text {
+    color: var(--dl-color-text);
+    padding: 2px;
+    font-size: smaller;
+}
+
 .data-container {
     width: 70%;
     height: auto;
@@ -122,6 +129,14 @@
     width: 100%;
     height: auto;
     border: 0px solid black;
+}
+.info-container {
+    align-self: center;
+    /*text-align: center;*/
+    width: 100%;
+    margin-top: var(--dl-space-space-twounits);
+    padding: 5px;
+    border: 1px solid var(--dl-color-decoration);
 }
 
 .best-eval {
