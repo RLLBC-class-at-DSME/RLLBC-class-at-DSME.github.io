@@ -141,11 +141,11 @@
             "eval-timestamp": "2024-01-02_17-04-46"
         },
         "73": {
-            "error": true,
-            "mean": -1,
-            "std": -1,
-            "commit-SHA": "494ea73bba974ac53d659fd840dab3ebc3d1c554",
-            "eval-timestamp": "2024-01-02_17-51-47"
+            "error": false,
+            "mean": -0.6623921754036145,
+            "std": 0.3196899277838436,
+            "commit-SHA": "235b30892819c11b8fc9663e8435cdd10965da47",
+            "eval-timestamp": "2024-01-02_17-54-22"
         }
     }
 }

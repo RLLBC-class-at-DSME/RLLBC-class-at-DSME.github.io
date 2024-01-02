@@ -1,5 +1,5 @@
 {
-    "timestamp": "2024-01-02_17-51-47",
+    "timestamp": "2024-01-02_17-54-22",
     "groups": {
         "1": {
             "error": true,
@@ -142,11 +142,11 @@
             "commit-SHA": "f8b2bf2a469df01ab9f3317de480d6c0d90292ec"
         },
         "73": {
-            "error": true,
-            "error_msg": "Traceback (most recent call last):\n  File \"C:\\Users\\limar\\Desktop\\Studium\\Hiwi\\Car_Racing_Challenge\\students_repo\\group_73\\evaluation_script.py\", line 87, in <module>\n    mean_reward, std_reward = evaluate_agent(model_file, convert_obs, convert_action, seed=args.seed, tracks=tracks)\n  File \"C:\\Users\\limar\\Desktop\\Studium\\Hiwi\\Car_Racing_Challenge\\students_repo\\group_73\\evaluation_script.py\", line 31, in evaluate_agent\n    model = load_model(model_file)\n  File \"C:\\Users\\limar\\Desktop\\Studium\\Hiwi\\Car_Racing_Challenge\\students_repo\\group_73\\evaluation_script.py\", line 23, in load_model\n    with open(file_path, 'rb') as model_file:\nFileNotFoundError: [Errno 2] No such file or directory: 'models\\\\model.obj'\n]",
-            "mean": -1,
-            "std": -1,
-            "commit-SHA": "494ea73bba974ac53d659fd840dab3ebc3d1c554"
+            "error": false,
+            "error_msg": "",
+            "mean": -0.6623921754036145,
+            "std": 0.3196899277838436,
+            "commit-SHA": "235b30892819c11b8fc9663e8435cdd10965da47"
         }
     }
 }
