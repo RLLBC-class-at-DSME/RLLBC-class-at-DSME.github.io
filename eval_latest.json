@@ -1,5 +1,5 @@
 {
-    "timestamp": "2024-01-02_16-19-10",
+    "timestamp": "2024-01-02_16-22-28",
     "groups": {
         "1": {
             "error": true,
@@ -136,10 +136,10 @@
         },
         "72": {
             "error": true,
-            "error_msg": "Traceback (most recent call last):\n  File \"C:\\Users\\limar\\Desktop\\Studium\\Hiwi\\Car_Racing_Challenge\\students_repo\\group_72\\evaluation_script.py\", line 66, in <module>\n    from agent_interface import convert_obs, convert_action\n  File \"C:\\Users\\limar\\Desktop\\Studium\\Hiwi\\Car_Racing_Challenge\\students_repo\\group_72\\agent_interface.py\", line 20, in <module>\n    from .util import *\nImportError: attempted relative import with no known parent package\n]",
+            "error_msg": "Traceback (most recent call last):\n  File \"C:\\Users\\limar\\Desktop\\Studium\\Hiwi\\Car_Racing_Challenge\\students_repo\\group_72\\evaluation_script.py\", line 66, in <module>\n    from agent_interface import convert_obs, convert_action\n  File \"C:\\Users\\limar\\Desktop\\Studium\\Hiwi\\Car_Racing_Challenge\\students_repo\\group_72\\agent_interface.py\", line 20, in <module>\n    from util import *\n  File \"C:\\Users\\limar\\Desktop\\Studium\\Hiwi\\Car_Racing_Challenge\\students_repo\\group_72\\util.py\", line 7, in <module>\n    from agent_interface import Agent\nImportError: cannot import name 'Agent' from partially initialized module 'agent_interface' (most likely due to a circular import) (C:\\Users\\limar\\Desktop\\Studium\\Hiwi\\Car_Racing_Challenge\\students_repo\\group_72\\agent_interface.py)\n]",
             "mean": -1,
             "std": -1,
-            "commit-SHA": "13f36f445c583dc6b3fe81a4386f214df659be61"
+            "commit-SHA": "a219e8548c13cffcdfdf8d1dd43eb7a3c076cace"
         }
     }
 }
