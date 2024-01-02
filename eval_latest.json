@@ -1,5 +1,5 @@
 {
-    "timestamp": "2024-01-02_14-32-26",
+    "timestamp": "2024-01-02_15-54-38",
     "groups": {
         "1": {
             "error": true,
@@ -133,6 +133,13 @@
             "mean": -1,
             "std": -1,
             "commit-SHA": "14018d4f1cbf38df0c9126a494b5f581bc07cd7c"
+        },
+        "72": {
+            "error": true,
+            "error_msg": "Traceback (most recent call last):\n  File \"C:\\Users\\limar\\Desktop\\Studium\\Hiwi\\Car_Racing_Challenge\\students_repo\\group_72\\evaluation_script.py\", line 65, in <module>\n    from scripts.agent_interface import convert_obs, convert_action\n  File \"C:\\Users\\limar\\Desktop\\Studium\\Hiwi\\Car_Racing_Challenge\\students_repo\\group_72\\scripts\\agent_interface.py\", line 20, in <module>\n    from util import *\nModuleNotFoundError: No module named 'util'\n]",
+            "mean": -1,
+            "std": -1,
+            "commit-SHA": "50da05e64d086f478ed677d59ed27398b55e03ad"
         }
     }
 }

@@ -132,6 +132,13 @@
             "std": 13.564967732345496,
             "commit-SHA": "14018d4f1cbf38df0c9126a494b5f581bc07cd7c",
             "eval-timestamp": "2023-12-04_16-19-12"
+        },
+        "72": {
+            "error": true,
+            "mean": -1,
+            "std": -1,
+            "commit-SHA": "50da05e64d086f478ed677d59ed27398b55e03ad",
+            "eval-timestamp": "2024-01-02_15-54-38"
         }
     }
 }
