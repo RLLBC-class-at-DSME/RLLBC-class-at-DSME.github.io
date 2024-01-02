@@ -1,5 +1,5 @@
 {
-    "timestamp": "2024-01-02_15-54-38",
+    "timestamp": "2024-01-02_15-59-10",
     "groups": {
         "1": {
             "error": true,
@@ -136,7 +136,7 @@
         },
         "72": {
             "error": true,
-            "error_msg": "Traceback (most recent call last):\n  File \"C:\\Users\\limar\\Desktop\\Studium\\Hiwi\\Car_Racing_Challenge\\students_repo\\group_72\\evaluation_script.py\", line 65, in <module>\n    from scripts.agent_interface import convert_obs, convert_action\n  File \"C:\\Users\\limar\\Desktop\\Studium\\Hiwi\\Car_Racing_Challenge\\students_repo\\group_72\\scripts\\agent_interface.py\", line 20, in <module>\n    from util import *\nModuleNotFoundError: No module named 'util'\n]",
+            "error_msg": "Traceback (most recent call last):\n  File \"C:\\Users\\limar\\Desktop\\Studium\\Hiwi\\Car_Racing_Challenge\\students_repo\\group_72\\evaluation_script.py\", line 65, in <module>\n    from scripts.agent_interface import convert_obs, convert_action\n  File \"C:\\Users\\limar\\Desktop\\Studium\\Hiwi\\Car_Racing_Challenge\\students_repo\\group_72\\scripts\\agent_interface.py\", line 20, in <module>\n    from util import *\n  File \"C:\\Users\\limar\\Desktop\\Studium\\Hiwi\\Car_Racing_Challenge\\students_repo\\group_72\\util.py\", line 7, in <module>\n    from scripts.agent_interface import Agent\nImportError: cannot import name 'Agent' from partially initialized module 'scripts.agent_interface' (most likely due to a circular import) (C:\\Users\\limar\\Desktop\\Studium\\Hiwi\\Car_Racing_Challenge\\students_repo\\group_72\\scripts\\agent_interface.py)\n]",
             "mean": -1,
             "std": -1,
             "commit-SHA": "50da05e64d086f478ed677d59ed27398b55e03ad"
