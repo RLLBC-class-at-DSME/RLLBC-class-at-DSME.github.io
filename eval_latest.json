@@ -1,5 +1,5 @@
 {
-    "timestamp": "2024-01-02_16-22-28",
+    "timestamp": "2024-01-02_16-38-04",
     "groups": {
         "1": {
             "error": true,
@@ -136,10 +136,10 @@
         },
         "72": {
             "error": true,
-            "error_msg": "Traceback (most recent call last):\n  File \"C:\\Users\\limar\\Desktop\\Studium\\Hiwi\\Car_Racing_Challenge\\students_repo\\group_72\\evaluation_script.py\", line 66, in <module>\n    from agent_interface import convert_obs, convert_action\n  File \"C:\\Users\\limar\\Desktop\\Studium\\Hiwi\\Car_Racing_Challenge\\students_repo\\group_72\\agent_interface.py\", line 20, in <module>\n    from util import *\n  File \"C:\\Users\\limar\\Desktop\\Studium\\Hiwi\\Car_Racing_Challenge\\students_repo\\group_72\\util.py\", line 7, in <module>\n    from agent_interface import Agent\nImportError: cannot import name 'Agent' from partially initialized module 'agent_interface' (most likely due to a circular import) (C:\\Users\\limar\\Desktop\\Studium\\Hiwi\\Car_Racing_Challenge\\students_repo\\group_72\\agent_interface.py)\n]",
+            "error_msg": "Traceback (most recent call last):\n  File \"C:\\Users\\limar\\Desktop\\Studium\\Hiwi\\Car_Racing_Challenge\\students_repo\\group_72\\evaluation_script.py\", line 87, in <module>\n    mean_reward, std_reward = evaluate_agent(model_file, convert_obs, convert_action, seed=args.seed, tracks=tracks)\n  File \"C:\\Users\\limar\\Desktop\\Studium\\Hiwi\\Car_Racing_Challenge\\students_repo\\group_72\\evaluation_script.py\", line 31, in evaluate_agent\n    model = load_model(model_file)\n  File \"C:\\Users\\limar\\Desktop\\Studium\\Hiwi\\Car_Racing_Challenge\\students_repo\\group_72\\evaluation_script.py\", line 24, in load_model\n    model = pickle.load(model_file)\nModuleNotFoundError: No module named 'scripts'\n]",
             "mean": -1,
             "std": -1,
-            "commit-SHA": "a219e8548c13cffcdfdf8d1dd43eb7a3c076cace"
+            "commit-SHA": "ec097f42653a572280741f853736188331597499"
         }
     }
 }
