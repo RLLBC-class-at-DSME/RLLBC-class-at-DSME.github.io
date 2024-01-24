@@ -1,5 +1,5 @@
 {
-    "timestamp": "2024-01-24_10-59-41",
+    "timestamp": "2024-01-24_11-44-23",
     "groups": {
         "1": {
             "error": true,
@@ -135,17 +135,17 @@
             "commit-SHA": "14018d4f1cbf38df0c9126a494b5f581bc07cd7c"
         },
         "72": {
-            "error": false,
-            "error_msg": "",
-            "mean": 0.0,
-            "std": 0.0,
-            "commit-SHA": "a98761cf71f4a6ead97ca6cbfabceed4fbc1c823"
+            "error": true,
+            "error_msg": "Evaluation took longer than 60 seconds and timed out.",
+            "mean": -1,
+            "std": -1,
+            "commit-SHA": "961514e6d62447b085031ce67af8819f569ddcd7"
         },
         "73": {
             "error": false,
             "error_msg": "",
-            "mean": -0.6623921754036145,
-            "std": 0.3196899277838436,
+            "mean": -0.5240411696212016,
+            "std": 0.2955526142476958,
             "commit-SHA": "235b30892819c11b8fc9663e8435cdd10965da47"
         }
     }
