@@ -174,6 +174,41 @@
             "std": 0.2955526142476958,
             "commit-SHA": "235b30892819c11b8fc9663e8435cdd10965da47",
             "eval-timestamp": "2024-01-24_11-50-59"
+        },
+        "78": {
+            "error": true,
+            "mean": -1,
+            "std": -1,
+            "commit-SHA": "961514e6d62447b085031ce67af8819f569ddcd7",
+            "eval-timestamp": "2024-01-24_11-54-58"
+        },
+        "79": {
+            "error": true,
+            "mean": -1,
+            "std": -1,
+            "commit-SHA": "961514e6d62447b085031ce67af8819f569ddcd7",
+            "eval-timestamp": "2024-01-24_11-54-58"
+        },
+        "80": {
+            "error": true,
+            "mean": -1,
+            "std": -1,
+            "commit-SHA": "961514e6d62447b085031ce67af8819f569ddcd7",
+            "eval-timestamp": "2024-01-24_11-54-58"
+        },
+        "81": {
+            "error": true,
+            "mean": -1,
+            "std": -1,
+            "commit-SHA": "961514e6d62447b085031ce67af8819f569ddcd7",
+            "eval-timestamp": "2024-01-24_11-54-58"
+        },
+        "82": {
+            "error": false,
+            "mean": -0.5240411696212016,
+            "std": 0.2955526142476958,
+            "commit-SHA": "235b30892819c11b8fc9663e8435cdd10965da47",
+            "eval-timestamp": "2024-01-24_11-54-58"
         }
     }
 }
