@@ -1,12 +1,12 @@
 {
-    "timestamp": "2024-05-28_14-31-26",
+    "timestamp": "2024-05-28_14-38-42",
     "groups": {
         "1": {
-            "error": true,
-            "error_msg": "Traceback (most recent call last):\n  File \"C:\\Users\\limar\\Desktop\\Studium\\Hiwi\\Car_Racing_Challenge\\students_repo\\group_1\\evaluation_script.py\", line 66, in <module>\n    from agent_interface import convert_obs, convert_action\n  File \"C:\\Users\\limar\\Desktop\\Studium\\Hiwi\\Car_Racing_Challenge\\students_repo\\group_1\\agent_interface.py\", line 114\n    class DDPG_Agent(nn.Module): \nIndentationError: expected an indented block after class definition on line 111\n]",
-            "mean": -1,
-            "std": -1,
-            "commit-SHA": "b5871f6e7678f57f6937b46dd521fd2248cbf613"
+            "error": false,
+            "error_msg": "",
+            "mean": 63.167122828651074,
+            "std": 4.4732123607613765,
+            "commit-SHA": "b7cfb7ee72ef63d06bba4c483a00cb24eb78ffc3"
         },
         "2": {
             "error": true,

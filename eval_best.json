@@ -1,11 +1,11 @@
 {
     "groups": {
         "1": {
-            "error": true,
-            "mean": -1,
-            "std": -1,
-            "commit-SHA": "f7f6d7ca1b0ca8179a28e9aa549ac4a84e5381aa",
-            "eval-timestamp": "2023-11-10_16-06-56"
+            "error": false,
+            "mean": 63.167122828651074,
+            "std": 4.4732123607613765,
+            "commit-SHA": "b7cfb7ee72ef63d06bba4c483a00cb24eb78ffc3",
+            "eval-timestamp": "2024-05-28_14-38-42"
         },
         "2": {
             "error": false,
