@@ -1,152 +1,19 @@
 {
-    "timestamp": "2024-01-31_10-16-05",
+    "timestamp": "2024-05-28_14-31-26",
     "groups": {
         "1": {
             "error": true,
-            "error_msg": "Traceback (most recent call last):\n  File \"/students_repo/group_1/evaluation_script.py\", line 66, in <module>\n    from agent_interface import convert_obs, convert_action\nModuleNotFoundError: No module named 'agent_interface'\n]",
+            "error_msg": "Traceback (most recent call last):\n  File \"C:\\Users\\limar\\Desktop\\Studium\\Hiwi\\Car_Racing_Challenge\\students_repo\\group_1\\evaluation_script.py\", line 66, in <module>\n    from agent_interface import convert_obs, convert_action\n  File \"C:\\Users\\limar\\Desktop\\Studium\\Hiwi\\Car_Racing_Challenge\\students_repo\\group_1\\agent_interface.py\", line 114\n    class DDPG_Agent(nn.Module): \nIndentationError: expected an indented block after class definition on line 111\n]",
             "mean": -1,
             "std": -1,
-            "commit-SHA": "f7f6d7ca1b0ca8179a28e9aa549ac4a84e5381aa"
+            "commit-SHA": "b5871f6e7678f57f6937b46dd521fd2248cbf613"
         },
         "2": {
             "error": true,
-            "error_msg": "Traceback (most recent call last):\n  File \"/students_repo/group_2/evaluation_script.py\", line 66, in <module>\n    from agent_interface import convert_obs, convert_action\nModuleNotFoundError: No module named 'agent_interface'\n]",
+            "error_msg": "Traceback (most recent call last):\n  File \"C:\\Users\\limar\\Desktop\\Studium\\Hiwi\\Car_Racing_Challenge\\students_repo\\group_2\\evaluation_script.py\", line 89, in <module>\n    mean_reward, std_reward = evaluate_agent(model_file, convert_obs, convert_action, seed=args.seed, tracks=tracks)\n  File \"C:\\Users\\limar\\Desktop\\Studium\\Hiwi\\Car_Racing_Challenge\\students_repo\\group_2\\evaluation_script.py\", line 31, in evaluate_agent\n    model = load_model(model_file)\n  File \"C:\\Users\\limar\\Desktop\\Studium\\Hiwi\\Car_Racing_Challenge\\students_repo\\group_2\\evaluation_script.py\", line 24, in load_model\n    model = pickle.load(model_file)\n  File \"C:\\Users\\limar\\miniconda3\\envs\\test-eval-env\\lib\\site-packages\\torch\\storage.py\", line 337, in _load_from_bytes\n    return torch.load(io.BytesIO(b))\n  File \"C:\\Users\\limar\\miniconda3\\envs\\test-eval-env\\lib\\site-packages\\torch\\serialization.py\", line 1028, in load\n    return _legacy_load(opened_file, map_location, pickle_module, **pickle_load_args)\n  File \"C:\\Users\\limar\\miniconda3\\envs\\test-eval-env\\lib\\site-packages\\torch\\serialization.py\", line 1256, in _legacy_load\n    result = unpickler.load()\n  File \"C:\\Users\\limar\\miniconda3\\envs\\test-eval-env\\lib\\site-packages\\torch\\serialization.py\", line 1193, in persistent_load\n    wrap_storage=restore_location(obj, location),\n  File \"C:\\Users\\limar\\miniconda3\\envs\\test-eval-env\\lib\\site-packages\\torch\\serialization.py\", line 381, in default_restore_location\n    result = fn(storage, location)\n  File \"C:\\Users\\limar\\miniconda3\\envs\\test-eval-env\\lib\\site-packages\\torch\\serialization.py\", line 274, in _cuda_deserialize\n    device = validate_cuda_device(location)\n  File \"C:\\Users\\limar\\miniconda3\\envs\\test-eval-env\\lib\\site-packages\\torch\\serialization.py\", line 258, in validate_cuda_device\n    raise RuntimeError('Attempting to deserialize object on a CUDA '\nRuntimeError: Attempting to deserialize object on a CUDA device but torch.cuda.is_available() is False. If you are running on a CPU-only machine, please use torch.load with map_location=torch.device('cpu') to map your storages to the CPU.\n]",
             "mean": -1,
             "std": -1,
-            "commit-SHA": "778fec3875c0eb58932db649a6a98e8e01f988d6"
-        },
-        "3": {
-            "error": true,
-            "error_msg": "Traceback (most recent call last):\n  File \"/students_repo/group_3/evaluation_script.py\", line 66, in <module>\n    from agent_interface import convert_obs, convert_action\nModuleNotFoundError: No module named 'agent_interface'\n]",
-            "mean": -1,
-            "std": -1,
-            "commit-SHA": "b60b72ceac11321e0678ee5f0fc47499a6d4c6a4"
-        },
-        "10": {
-            "error": true,
-            "error_msg": "Traceback (most recent call last):\n  File \"/students_repo/group_10/evaluation_script.py\", line 66, in <module>\n    from agent_interface import convert_obs, convert_action\nModuleNotFoundError: No module named 'agent_interface'\n]",
-            "mean": -1,
-            "std": -1,
-            "commit-SHA": "f7f6d7ca1b0ca8179a28e9aa549ac4a84e5381aa"
-        },
-        "11": {
-            "error": true,
-            "error_msg": "Traceback (most recent call last):\n  File \"/students_repo/group_11/evaluation_script.py\", line 66, in <module>\n    from agent_interface import convert_obs, convert_action\nModuleNotFoundError: No module named 'agent_interface'\n]",
-            "mean": -1,
-            "std": -1,
-            "commit-SHA": "778fec3875c0eb58932db649a6a98e8e01f988d6"
-        },
-        "12": {
-            "error": true,
-            "error_msg": "Traceback (most recent call last):\n  File \"/students_repo/group_12/evaluation_script.py\", line 66, in <module>\n    from agent_interface import convert_obs, convert_action\nModuleNotFoundError: No module named 'agent_interface'\n]",
-            "mean": -1,
-            "std": -1,
-            "commit-SHA": "b60b72ceac11321e0678ee5f0fc47499a6d4c6a4"
-        },
-        "21": {
-            "error": true,
-            "error_msg": "Traceback (most recent call last):\n  File \"/students_repo/group_21/evaluation_script.py\", line 66, in <module>\n    from agent_interface import convert_obs, convert_action\nModuleNotFoundError: No module named 'agent_interface'\n]",
-            "mean": -1,
-            "std": -1,
-            "commit-SHA": "f7f6d7ca1b0ca8179a28e9aa549ac4a84e5381aa"
-        },
-        "22": {
-            "error": true,
-            "error_msg": "Traceback (most recent call last):\n  File \"/students_repo/group_22/evaluation_script.py\", line 66, in <module>\n    from agent_interface import convert_obs, convert_action\nModuleNotFoundError: No module named 'agent_interface'\n]",
-            "mean": -1,
-            "std": -1,
-            "commit-SHA": "778fec3875c0eb58932db649a6a98e8e01f988d6"
-        },
-        "23": {
-            "error": true,
-            "error_msg": "Traceback (most recent call last):\n  File \"/students_repo/group_23/evaluation_script.py\", line 66, in <module>\n    from agent_interface import convert_obs, convert_action\nModuleNotFoundError: No module named 'agent_interface'\n]",
-            "mean": -1,
-            "std": -1,
-            "commit-SHA": "b60b72ceac11321e0678ee5f0fc47499a6d4c6a4"
-        },
-        "31": {
-            "error": true,
-            "error_msg": "Traceback (most recent call last):\n  File \"/students_repo/group_31/evaluation_script.py\", line 66, in <module>\n    from agent_interface import convert_obs, convert_action\nModuleNotFoundError: No module named 'agent_interface'\n]",
-            "mean": -1,
-            "std": -1,
-            "commit-SHA": "f7f6d7ca1b0ca8179a28e9aa549ac4a84e5381aa"
-        },
-        "32": {
-            "error": true,
-            "error_msg": "Traceback (most recent call last):\n  File \"/students_repo/group_32/evaluation_script.py\", line 66, in <module>\n    from agent_interface import convert_obs, convert_action\nModuleNotFoundError: No module named 'agent_interface'\n]",
-            "mean": -1,
-            "std": -1,
-            "commit-SHA": "778fec3875c0eb58932db649a6a98e8e01f988d6"
-        },
-        "33": {
-            "error": true,
-            "error_msg": "Traceback (most recent call last):\n  File \"/students_repo/group_33/evaluation_script.py\", line 66, in <module>\n    from agent_interface import convert_obs, convert_action\nModuleNotFoundError: No module named 'agent_interface'\n]",
-            "mean": -1,
-            "std": -1,
-            "commit-SHA": "b60b72ceac11321e0678ee5f0fc47499a6d4c6a4"
-        },
-        "41": {
-            "error": true,
-            "error_msg": "Traceback (most recent call last):\n  File \"/students_repo/group_41/evaluation_script.py\", line 66, in <module>\n    from agent_interface import convert_obs, convert_action\nModuleNotFoundError: No module named 'agent_interface'\n]",
-            "mean": -1,
-            "std": -1,
-            "commit-SHA": "f7f6d7ca1b0ca8179a28e9aa549ac4a84e5381aa"
-        },
-        "42": {
-            "error": true,
-            "error_msg": "Traceback (most recent call last):\n  File \"/students_repo/group_42/evaluation_script.py\", line 66, in <module>\n    from agent_interface import convert_obs, convert_action\nModuleNotFoundError: No module named 'agent_interface'\n]",
-            "mean": -1,
-            "std": -1,
-            "commit-SHA": "778fec3875c0eb58932db649a6a98e8e01f988d6"
-        },
-        "43": {
-            "error": true,
-            "error_msg": "Traceback (most recent call last):\n  File \"/students_repo/group_43/evaluation_script.py\", line 66, in <module>\n    from agent_interface import convert_obs, convert_action\nModuleNotFoundError: No module named 'agent_interface'\n]",
-            "mean": -1,
-            "std": -1,
-            "commit-SHA": "b60b72ceac11321e0678ee5f0fc47499a6d4c6a4"
-        },
-        "51": {
-            "error": true,
-            "error_msg": "Traceback (most recent call last):\n  File \"/students_repo/group_51/evaluation_script.py\", line 66, in <module>\n    from agent_interface import convert_obs, convert_action\nModuleNotFoundError: No module named 'agent_interface'\n]",
-            "mean": -1,
-            "std": -1,
-            "commit-SHA": "f7f6d7ca1b0ca8179a28e9aa549ac4a84e5381aa"
-        },
-        "52": {
-            "error": true,
-            "error_msg": "Traceback (most recent call last):\n  File \"/students_repo/group_52/evaluation_script.py\", line 66, in <module>\n    from agent_interface import convert_obs, convert_action\nModuleNotFoundError: No module named 'agent_interface'\n]",
-            "mean": -1,
-            "std": -1,
-            "commit-SHA": "778fec3875c0eb58932db649a6a98e8e01f988d6"
-        },
-        "53": {
-            "error": true,
-            "error_msg": "Traceback (most recent call last):\n  File \"/students_repo/group_53/evaluation_script.py\", line 66, in <module>\n    from agent_interface import convert_obs, convert_action\nModuleNotFoundError: No module named 'agent_interface'\n]",
-            "mean": -1,
-            "std": -1,
-            "commit-SHA": "b60b72ceac11321e0678ee5f0fc47499a6d4c6a4"
-        },
-        "69": {
-            "error": true,
-            "error_msg": "Traceback (most recent call last):\n  File \"/students_repo/group_69/evaluation_script.py\", line 66, in <module>\n    from agent_interface import convert_obs, convert_action\nModuleNotFoundError: No module named 'agent_interface'\n]",
-            "mean": -1,
-            "std": -1,
-            "commit-SHA": "14018d4f1cbf38df0c9126a494b5f581bc07cd7c"
-        },
-        "72": {
-            "error": true,
-            "error_msg": "Evaluation took longer than 60 seconds and timed out.",
-            "mean": -1,
-            "std": -1,
-            "commit-SHA": "961514e6d62447b085031ce67af8819f569ddcd7"
-        },
-        "82": {
-            "error": false,
-            "error_msg": "",
-            "mean": -0.5161979873104421,
-            "std": 0.29554121188116145,
-            "commit-SHA": "235b30892819c11b8fc9663e8435cdd10965da47"
+            "commit-SHA": "7ccfc5c1ece2ab463ef10295f6f03622ef8e52a0"
         }
     }
 }
