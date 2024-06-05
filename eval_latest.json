@@ -4,7 +4,7 @@
         "1": {
             "error": false,
             "error_msg": "",
-            "mean": 58.910688412037175,
+            "mean": 0.1,
             "std": 8.449133981019761,
             "commit-SHA": "155725b1e99e4a2537b0c82faec4061b9f562650"
         }
