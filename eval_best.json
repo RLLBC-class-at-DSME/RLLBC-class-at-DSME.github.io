@@ -1,0 +1,11 @@
+{
+    "groups": {
+        "1": {
+            "error": false,
+            "mean": 62.40835852180535,
+            "std": 9.74456774259851,
+            "commit-SHA": "a155a3c9cc7cafdd581b14faff57c175824e7ec2",
+            "eval-timestamp": "2024-06-05_17-00-34"
+        }
+    }
+}
