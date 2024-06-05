@@ -5,14 +5,14 @@
             "mean": 60.285006854010746,
             "std": 0.2900533654366342,
             "commit-SHA": "b7cfb7ee72ef63d06bba4c483a00cb24eb78ffc3",
-            "eval-timestamp": "2024-05-28_14-29-21"
+            "eval-timestamp": "2024-06-05_11-27-07"
         },
         "2": {
             "error": true,
             "mean": -1,
             "std": -1,
             "commit-SHA": "8ed56846922b4aa06a3462ea344153c8eb885168",
-            "eval-timestamp": "2024-05-28_14-29-21"
+            "eval-timestamp": "2024-06-05_11-27-07"
         }
     }
 }
