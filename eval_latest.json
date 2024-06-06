@@ -1,0 +1,12 @@
+{
+    "timestamp": "2024-06-05_17-26-27",
+    "groups": {
+        "1": {
+            "error": false,
+            "error_msg": "",
+            "mean": 60.68664680000935,
+            "std": 9.61955769977084,
+            "commit-SHA": "95a42dc6e9b3fb1a6c46d56a3f8ac70fc327e82b"
+        }
+    }
+}
