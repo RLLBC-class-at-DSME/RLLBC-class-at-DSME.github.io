@@ -16,10 +16,10 @@
         },
         "3": {
             "error": false,
-            "mean": 99.29892168421156,
-            "std": 0.12941227095235044,
-            "commit-SHA": "1ad14a19cff04b15132c67b97f3935449de8daec",
-            "eval-timestamp": "2024-06-06_22-02-29"
+            "mean": 99.90505090780108,
+            "std": 0.14240157429408604,
+            "commit-SHA": "0fbcdc3dc769e3252d53f09a81e320a98cf1c9fa",
+            "eval-timestamp": "2024-06-06_23-10-53"
         }
     }
 }
