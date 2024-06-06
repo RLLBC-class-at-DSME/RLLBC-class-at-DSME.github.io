@@ -1,0 +1,25 @@
+{
+    "groups": {
+        "1": {
+            "error": false,
+            "mean": 62.45698549133706,
+            "std": 7.5675509730598165,
+            "commit-SHA": "e333ba351324c7e39e08990494701cbba816dc9e",
+            "eval-timestamp": "2024-06-06_17-05-27"
+        },
+        "2": {
+            "error": false,
+            "mean": -0.5877533375307953,
+            "std": 0.0,
+            "commit-SHA": "43c807d8994e74ae0be0d09abfc6d06385f19b3c",
+            "eval-timestamp": "2024-06-06_17-05-27"
+        },
+        "3": {
+            "error": false,
+            "mean": 84.64679799118332,
+            "std": 0.32221024578259405,
+            "commit-SHA": "282491ca042a494040dd4a2a628e4cb08a5383dd",
+            "eval-timestamp": "2024-06-06_17-05-27"
+        }
+    }
+}
