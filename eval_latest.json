@@ -1,0 +1,334 @@
+{
+    "timestamp": "2024-06-25_10-27-31",
+    "groups": {
+        "1": {
+            "error": false,
+            "error_msg": "",
+            "mean": -0.5877533375307917,
+            "std": 1.1102230246251565e-16,
+            "commit-SHA": "4c9180fcfdf8224b87be865280f3589412f05faf"
+        },
+        "3": {
+            "error": false,
+            "error_msg": "",
+            "mean": -0.5877533375307917,
+            "std": 1.1102230246251565e-16,
+            "commit-SHA": "4c9180fcfdf8224b87be865280f3589412f05faf"
+        },
+        "5": {
+            "error": false,
+            "error_msg": "",
+            "mean": -0.5877533375307917,
+            "std": 1.1102230246251565e-16,
+            "commit-SHA": "4c9180fcfdf8224b87be865280f3589412f05faf"
+        },
+        "6": {
+            "error": false,
+            "error_msg": "",
+            "mean": -0.5877533375307917,
+            "std": 1.1102230246251565e-16,
+            "commit-SHA": "4c9180fcfdf8224b87be865280f3589412f05faf"
+        },
+        "7": {
+            "error": false,
+            "error_msg": "",
+            "mean": -0.5877533375307917,
+            "std": 1.1102230246251565e-16,
+            "commit-SHA": "4c9180fcfdf8224b87be865280f3589412f05faf"
+        },
+        "9": {
+            "error": false,
+            "error_msg": "",
+            "mean": -0.5877533375307917,
+            "std": 1.1102230246251565e-16,
+            "commit-SHA": "8393f26786a3ff8968374304d8ccaea40b47c47a"
+        },
+        "11": {
+            "error": false,
+            "error_msg": "",
+            "mean": -0.5877533375307917,
+            "std": 1.1102230246251565e-16,
+            "commit-SHA": "4c9180fcfdf8224b87be865280f3589412f05faf"
+        },
+        "12": {
+            "error": false,
+            "error_msg": "",
+            "mean": -0.5877533375307917,
+            "std": 1.1102230246251565e-16,
+            "commit-SHA": "4c9180fcfdf8224b87be865280f3589412f05faf"
+        },
+        "14": {
+            "error": false,
+            "error_msg": "",
+            "mean": -0.5877533375307917,
+            "std": 1.1102230246251565e-16,
+            "commit-SHA": "4c9180fcfdf8224b87be865280f3589412f05faf"
+        },
+        "15": {
+            "error": false,
+            "error_msg": "",
+            "mean": -0.5877533375307917,
+            "std": 1.1102230246251565e-16,
+            "commit-SHA": "4c9180fcfdf8224b87be865280f3589412f05faf"
+        },
+        "17": {
+            "error": false,
+            "error_msg": "",
+            "mean": -0.5877533375307917,
+            "std": 1.1102230246251565e-16,
+            "commit-SHA": "4c9180fcfdf8224b87be865280f3589412f05faf"
+        },
+        "18": {
+            "error": false,
+            "error_msg": "",
+            "mean": -0.5877533375307917,
+            "std": 1.1102230246251565e-16,
+            "commit-SHA": "4c9180fcfdf8224b87be865280f3589412f05faf"
+        },
+        "20": {
+            "error": false,
+            "error_msg": "",
+            "mean": -0.5877533375307917,
+            "std": 1.1102230246251565e-16,
+            "commit-SHA": "4c9180fcfdf8224b87be865280f3589412f05faf"
+        },
+        "21": {
+            "error": false,
+            "error_msg": "",
+            "mean": -0.5877533375307917,
+            "std": 1.1102230246251565e-16,
+            "commit-SHA": "4c9180fcfdf8224b87be865280f3589412f05faf"
+        },
+        "22": {
+            "error": false,
+            "error_msg": "",
+            "mean": -0.5877533375307917,
+            "std": 1.1102230246251565e-16,
+            "commit-SHA": "4c9180fcfdf8224b87be865280f3589412f05faf"
+        },
+        "23": {
+            "error": false,
+            "error_msg": "",
+            "mean": -0.5877533375307917,
+            "std": 1.1102230246251565e-16,
+            "commit-SHA": "4c9180fcfdf8224b87be865280f3589412f05faf"
+        },
+        "24": {
+            "error": false,
+            "error_msg": "",
+            "mean": -0.5877533375307917,
+            "std": 1.1102230246251565e-16,
+            "commit-SHA": "4c9180fcfdf8224b87be865280f3589412f05faf"
+        },
+        "25": {
+            "error": false,
+            "error_msg": "",
+            "mean": -0.5877533375307917,
+            "std": 1.1102230246251565e-16,
+            "commit-SHA": "4c9180fcfdf8224b87be865280f3589412f05faf"
+        },
+        "26": {
+            "error": false,
+            "error_msg": "",
+            "mean": -0.5877533375307917,
+            "std": 1.1102230246251565e-16,
+            "commit-SHA": "4c9180fcfdf8224b87be865280f3589412f05faf"
+        },
+        "28": {
+            "error": false,
+            "error_msg": "",
+            "mean": -0.5877533375307917,
+            "std": 1.1102230246251565e-16,
+            "commit-SHA": "4c9180fcfdf8224b87be865280f3589412f05faf"
+        },
+        "29": {
+            "error": false,
+            "error_msg": "",
+            "mean": -0.5877533375307917,
+            "std": 1.1102230246251565e-16,
+            "commit-SHA": "4c9180fcfdf8224b87be865280f3589412f05faf"
+        },
+        "30": {
+            "error": false,
+            "error_msg": "",
+            "mean": -0.5877533375307917,
+            "std": 1.1102230246251565e-16,
+            "commit-SHA": "4c9180fcfdf8224b87be865280f3589412f05faf"
+        },
+        "31": {
+            "error": false,
+            "error_msg": "",
+            "mean": -0.5877533375307917,
+            "std": 1.1102230246251565e-16,
+            "commit-SHA": "4c9180fcfdf8224b87be865280f3589412f05faf"
+        },
+        "33": {
+            "error": false,
+            "error_msg": "",
+            "mean": -0.5877533375307917,
+            "std": 1.1102230246251565e-16,
+            "commit-SHA": "4c9180fcfdf8224b87be865280f3589412f05faf"
+        },
+        "34": {
+            "error": false,
+            "error_msg": "",
+            "mean": -0.5877533375307917,
+            "std": 1.1102230246251565e-16,
+            "commit-SHA": "4c9180fcfdf8224b87be865280f3589412f05faf"
+        },
+        "36": {
+            "error": false,
+            "error_msg": "",
+            "mean": -0.5877533375307917,
+            "std": 1.1102230246251565e-16,
+            "commit-SHA": "4c9180fcfdf8224b87be865280f3589412f05faf"
+        },
+        "37": {
+            "error": false,
+            "error_msg": "",
+            "mean": -0.5877533375307917,
+            "std": 1.1102230246251565e-16,
+            "commit-SHA": "4c9180fcfdf8224b87be865280f3589412f05faf"
+        },
+        "40": {
+            "error": false,
+            "error_msg": "",
+            "mean": -0.5877533375307917,
+            "std": 1.1102230246251565e-16,
+            "commit-SHA": "4c9180fcfdf8224b87be865280f3589412f05faf"
+        },
+        "42": {
+            "error": false,
+            "error_msg": "",
+            "mean": -0.5877533375307917,
+            "std": 1.1102230246251565e-16,
+            "commit-SHA": "4c9180fcfdf8224b87be865280f3589412f05faf"
+        },
+        "44": {
+            "error": false,
+            "error_msg": "",
+            "mean": -0.5877533375307917,
+            "std": 1.1102230246251565e-16,
+            "commit-SHA": "4c9180fcfdf8224b87be865280f3589412f05faf"
+        },
+        "45": {
+            "error": false,
+            "error_msg": "",
+            "mean": -0.5877533375307917,
+            "std": 1.1102230246251565e-16,
+            "commit-SHA": "4c9180fcfdf8224b87be865280f3589412f05faf"
+        },
+        "46": {
+            "error": false,
+            "error_msg": "",
+            "mean": -0.5877533375307917,
+            "std": 1.1102230246251565e-16,
+            "commit-SHA": "4c9180fcfdf8224b87be865280f3589412f05faf"
+        },
+        "47": {
+            "error": false,
+            "error_msg": "",
+            "mean": -0.5877533375307917,
+            "std": 1.1102230246251565e-16,
+            "commit-SHA": "4c9180fcfdf8224b87be865280f3589412f05faf"
+        },
+        "49": {
+            "error": false,
+            "error_msg": "",
+            "mean": -0.5877533375307917,
+            "std": 1.1102230246251565e-16,
+            "commit-SHA": "4c9180fcfdf8224b87be865280f3589412f05faf"
+        },
+        "51": {
+            "error": false,
+            "error_msg": "",
+            "mean": -0.5877533375307917,
+            "std": 1.1102230246251565e-16,
+            "commit-SHA": "4c9180fcfdf8224b87be865280f3589412f05faf"
+        },
+        "55": {
+            "error": false,
+            "error_msg": "",
+            "mean": -0.5877533375307917,
+            "std": 1.1102230246251565e-16,
+            "commit-SHA": "4c9180fcfdf8224b87be865280f3589412f05faf"
+        },
+        "56": {
+            "error": false,
+            "error_msg": "",
+            "mean": -0.5877533375307917,
+            "std": 1.1102230246251565e-16,
+            "commit-SHA": "4c9180fcfdf8224b87be865280f3589412f05faf"
+        },
+        "58": {
+            "error": false,
+            "error_msg": "",
+            "mean": -0.5877533375307917,
+            "std": 1.1102230246251565e-16,
+            "commit-SHA": "4c9180fcfdf8224b87be865280f3589412f05faf"
+        },
+        "63": {
+            "error": false,
+            "error_msg": "",
+            "mean": -0.5877533375307917,
+            "std": 1.1102230246251565e-16,
+            "commit-SHA": "4c9180fcfdf8224b87be865280f3589412f05faf"
+        },
+        "64": {
+            "error": false,
+            "error_msg": "",
+            "mean": -0.5877533375307917,
+            "std": 1.1102230246251565e-16,
+            "commit-SHA": "4c9180fcfdf8224b87be865280f3589412f05faf"
+        },
+        "65": {
+            "error": false,
+            "error_msg": "",
+            "mean": -0.5877533375307917,
+            "std": 1.1102230246251565e-16,
+            "commit-SHA": "4c9180fcfdf8224b87be865280f3589412f05faf"
+        },
+        "67": {
+            "error": false,
+            "error_msg": "",
+            "mean": -0.5877533375307917,
+            "std": 1.1102230246251565e-16,
+            "commit-SHA": "4c9180fcfdf8224b87be865280f3589412f05faf"
+        },
+        "78": {
+            "error": false,
+            "error_msg": "",
+            "mean": -0.5877533375307917,
+            "std": 1.1102230246251565e-16,
+            "commit-SHA": "4c9180fcfdf8224b87be865280f3589412f05faf"
+        },
+        "79": {
+            "error": false,
+            "error_msg": "",
+            "mean": -0.5877533375307917,
+            "std": 1.1102230246251565e-16,
+            "commit-SHA": "4c9180fcfdf8224b87be865280f3589412f05faf"
+        },
+        "97": {
+            "error": false,
+            "error_msg": "",
+            "mean": -0.5877533375307917,
+            "std": 1.1102230246251565e-16,
+            "commit-SHA": "8393f26786a3ff8968374304d8ccaea40b47c47a"
+        },
+        "98": {
+            "error": false,
+            "error_msg": "",
+            "mean": 63.74188891497448,
+            "std": 7.010650023833667,
+            "commit-SHA": "76dc3d6d23df095b2e99d91d6fbc6018759526e1"
+        },
+        "99": {
+            "error": false,
+            "error_msg": "",
+            "mean": 99.98764096347212,
+            "std": 0.21074571778790122,
+            "commit-SHA": "d48180065824b8ac6ba52c80ec687cda7f3b3be1"
+        }
+    }
+}
