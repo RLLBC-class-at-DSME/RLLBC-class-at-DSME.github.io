@@ -1,5 +1,5 @@
 {
-    "timestamp": "2024-06-27_10-30-16",
+    "timestamp": "2024-07-09_13-28-04",
     "groups": {
         "1": {
             "error": false,
@@ -13,7 +13,7 @@
             "error_msg": "",
             "mean": -0.5877533375307917,
             "std": 1.1102230246251565e-16,
-            "commit-SHA": "4c9180fcfdf8224b87be865280f3589412f05faf"
+            "commit-SHA": "9a38f06e9a5b589476ba1ae59088823ef504fd3e"
         },
         "5": {
             "error": false,
@@ -176,6 +176,13 @@
             "std": 1.1102230246251565e-16,
             "commit-SHA": "4c9180fcfdf8224b87be865280f3589412f05faf"
         },
+        "35": {
+            "error": false,
+            "error_msg": "",
+            "mean": -0.5877533375307917,
+            "std": 1.1102230246251565e-16,
+            "commit-SHA": "4c9180fcfdf8224b87be865280f3589412f05faf"
+        },
         "36": {
             "error": false,
             "error_msg": "",
@@ -288,6 +295,13 @@
             "std": 1.1102230246251565e-16,
             "commit-SHA": "4c9180fcfdf8224b87be865280f3589412f05faf"
         },
+        "66": {
+            "error": false,
+            "error_msg": "",
+            "mean": -0.5877533375307917,
+            "std": 1.1102230246251565e-16,
+            "commit-SHA": "4c9180fcfdf8224b87be865280f3589412f05faf"
+        },
         "67": {
             "error": false,
             "error_msg": "",
@@ -319,15 +333,15 @@
         "98": {
             "error": false,
             "error_msg": "",
-            "mean": 64.80840098597791,
-            "std": 6.220829076802204,
+            "mean": 67.57251503430322,
+            "std": 3.6379916262440215,
             "commit-SHA": "76dc3d6d23df095b2e99d91d6fbc6018759526e1"
         },
         "99": {
             "error": false,
             "error_msg": "",
-            "mean": 99.99412711108894,
-            "std": 0.20598162608025447,
+            "mean": 99.96192753582098,
+            "std": 0.19496241981208293,
             "commit-SHA": "d48180065824b8ac6ba52c80ec687cda7f3b3be1"
         }
     }
