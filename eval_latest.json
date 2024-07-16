@@ -1,5 +1,5 @@
 {
-    "timestamp": "2024-07-16_15-50-18",
+    "timestamp": "2024-07-16_21-39-49",
     "groups": {
         "1": {
             "error": false,
@@ -13,7 +13,7 @@
             "error_msg": "Traceback (most recent call last):\n  File \"/students_repo/group_3/evaluation_script.py\", line 89, in <module>\n    mean_reward, std_reward = evaluate_agent(model_file, convert_obs, convert_action, seed=args.seed, tracks=tracks)\n  File \"/students_repo/group_3/evaluation_script.py\", line 31, in evaluate_agent\n    model = load_model(model_file)\n  File \"/students_repo/group_3/evaluation_script.py\", line 23, in load_model\n    with open(file_path, 'rb') as model_file:\nFileNotFoundError: [Errno 2] No such file or directory: 'models/model.obj'\n]",
             "mean": -1,
             "std": -1,
-            "commit-SHA": "07de163b74b49332978367980047aa9efbc92eb1"
+            "commit-SHA": "e4ef9abf80ca4941e993ae456a76010ea2b56a04"
         },
         "5": {
             "error": false,
@@ -316,6 +316,13 @@
             "std": 1.1102230246251565e-16,
             "commit-SHA": "4c9180fcfdf8224b87be865280f3589412f05faf"
         },
+        "75": {
+            "error": false,
+            "error_msg": "",
+            "mean": -0.5877533375307917,
+            "std": 1.1102230246251565e-16,
+            "commit-SHA": "4c9180fcfdf8224b87be865280f3589412f05faf"
+        },
         "78": {
             "error": false,
             "error_msg": "",
@@ -340,15 +347,15 @@
         "98": {
             "error": false,
             "error_msg": "",
-            "mean": 64.06516341454518,
-            "std": 8.001245062619754,
+            "mean": 61.25974572791277,
+            "std": 8.632663163851278,
             "commit-SHA": "76dc3d6d23df095b2e99d91d6fbc6018759526e1"
         },
         "99": {
             "error": false,
             "error_msg": "",
-            "mean": 99.97611263941118,
-            "std": 0.11339276913706697,
+            "mean": 99.90351690501885,
+            "std": 0.14811485510588035,
             "commit-SHA": "d48180065824b8ac6ba52c80ec687cda7f3b3be1"
         }
     }
