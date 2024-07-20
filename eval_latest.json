@@ -1,5 +1,5 @@
 {
-    "timestamp": "2024-07-19_21-47-42",
+    "timestamp": "2024-07-20_21-51-39",
     "groups": {
         "1": {
             "error": false,
@@ -205,11 +205,11 @@
             "commit-SHA": "4c9180fcfdf8224b87be865280f3589412f05faf"
         },
         "42": {
-            "error": false,
-            "error_msg": "",
-            "mean": -0.5877533375307917,
-            "std": 1.1102230246251565e-16,
-            "commit-SHA": "4c9180fcfdf8224b87be865280f3589412f05faf"
+            "error": true,
+            "error_msg": "Traceback (most recent call last):\n  File \"/students_repo/group_42/evaluation_script.py\", line 89, in <module>\n    mean_reward, std_reward = evaluate_agent(model_file, convert_obs, convert_action, seed=args.seed, tracks=tracks)\n  File \"/students_repo/group_42/evaluation_script.py\", line 50, in evaluate_agent\n    state = convert_obs(obs)\n  File \"/students_repo/group_42/agent_interface.py\", line 59, in convert_obs\n    distances = np.linalg.norm(relevant_cones, axis=1)\n  File \"<__array_function__ internals>\", line 180, in norm\n  File \"/opt/conda/envs/car-racing-evaluation/lib/python3.10/site-packages/numpy/linalg/linalg.py\", line 2547, in norm\n    return sqrt(add.reduce(s, axis=axis, keepdims=keepdims))\nnumpy.AxisError: axis 1 is out of bounds for array of dimension 1\n]",
+            "mean": -1,
+            "std": -1,
+            "commit-SHA": "743f4d617eb9f58f3a672f3380ef5625bbf2883c"
         },
         "44": {
             "error": false,
@@ -347,15 +347,15 @@
         "98": {
             "error": false,
             "error_msg": "",
-            "mean": 65.32366451584532,
-            "std": 7.6593887618549585,
+            "mean": 63.15108985788993,
+            "std": 5.679799779630422,
             "commit-SHA": "76dc3d6d23df095b2e99d91d6fbc6018759526e1"
         },
         "99": {
             "error": false,
             "error_msg": "",
-            "mean": 99.88019597687189,
-            "std": 0.17059959004487885,
+            "mean": 99.87076078168008,
+            "std": 0.16856992679954905,
             "commit-SHA": "d48180065824b8ac6ba52c80ec687cda7f3b3be1"
         }
     }
