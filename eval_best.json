@@ -8,11 +8,11 @@
             "eval-timestamp": "2024-07-16_21-39-49"
         },
         "3": {
-            "error": true,
-            "mean": -1,
-            "std": -1,
-            "commit-SHA": "e4ef9abf80ca4941e993ae456a76010ea2b56a04",
-            "eval-timestamp": "2024-07-16_21-39-49"
+            "error": false,
+            "mean": 20.782269983050693,
+            "std": 0.0,
+            "commit-SHA": "7a7bea22a65bfe4621e319c0445946958e55cfad",
+            "eval-timestamp": "2024-07-24_22-07-26"
         },
         "5": {
             "error": false,

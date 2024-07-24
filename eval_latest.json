@@ -1,5 +1,5 @@
 {
-    "timestamp": "2024-07-23_22-03-32",
+    "timestamp": "2024-07-24_22-07-26",
     "groups": {
         "1": {
             "error": false,
@@ -9,11 +9,11 @@
             "commit-SHA": "4c9180fcfdf8224b87be865280f3589412f05faf"
         },
         "3": {
-            "error": true,
-            "error_msg": "Traceback (most recent call last):\n  File \"/students_repo/group_3/evaluation_script.py\", line 89, in <module>\n    mean_reward, std_reward = evaluate_agent(model_file, convert_obs, convert_action, seed=args.seed, tracks=tracks)\n  File \"/students_repo/group_3/evaluation_script.py\", line 31, in evaluate_agent\n    model = load_model(model_file)\n  File \"/students_repo/group_3/evaluation_script.py\", line 23, in load_model\n    with open(file_path, 'rb') as model_file:\nFileNotFoundError: [Errno 2] No such file or directory: 'models/model.obj'\n]",
-            "mean": -1,
-            "std": -1,
-            "commit-SHA": "8d1a517e2a9b59c0c96bacc46ae33c3557d3fda1"
+            "error": false,
+            "error_msg": "",
+            "mean": 20.782269983050693,
+            "std": 0.0,
+            "commit-SHA": "7a7bea22a65bfe4621e319c0445946958e55cfad"
         },
         "5": {
             "error": false,
@@ -347,15 +347,15 @@
         "98": {
             "error": false,
             "error_msg": "",
-            "mean": 66.38326722382048,
-            "std": 9.230054461097108,
+            "mean": 60.16007214709266,
+            "std": 8.93148251518931,
             "commit-SHA": "76dc3d6d23df095b2e99d91d6fbc6018759526e1"
         },
         "99": {
             "error": false,
             "error_msg": "",
-            "mean": 100.06154750389673,
-            "std": 0.18305385470164418,
+            "mean": 99.88800904660387,
+            "std": 0.33402208072265355,
             "commit-SHA": "d48180065824b8ac6ba52c80ec687cda7f3b3be1"
         }
     }
