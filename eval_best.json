@@ -9,10 +9,10 @@
         },
         "3": {
             "error": false,
-            "mean": 20.782269983050693,
-            "std": 0.0,
-            "commit-SHA": "7a7bea22a65bfe4621e319c0445946958e55cfad",
-            "eval-timestamp": "2024-07-24_22-07-26"
+            "mean": 47.03506997897968,
+            "std": 0.06882004423240815,
+            "commit-SHA": "d5a862bebe5a524a9a366c9cfd70dd490dfb8e9a",
+            "eval-timestamp": "2024-07-26_22-15-28"
         },
         "5": {
             "error": false,
