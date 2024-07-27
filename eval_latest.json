@@ -1,5 +1,5 @@
 {
-    "timestamp": "2024-07-26_22-15-28",
+    "timestamp": "2024-07-27_22-19-35",
     "groups": {
         "1": {
             "error": false,
@@ -205,11 +205,11 @@
             "commit-SHA": "5f8cc07fab499c91721ab28066f92cc24be18643"
         },
         "42": {
-            "error": true,
-            "error_msg": "Traceback (most recent call last):\n  File \"/students_repo/group_42/evaluation_script.py\", line 89, in <module>\n    mean_reward, std_reward = evaluate_agent(model_file, convert_obs, convert_action, seed=args.seed, tracks=tracks)\n  File \"/students_repo/group_42/evaluation_script.py\", line 52, in evaluate_agent\n    output = model.get_action(state)\n  File \"/students_repo/group_42/agent_interface.py\", line 170, in get_action\n    return self.forward(obs)\n  File \"/students_repo/group_42/agent_interface.py\", line 164, in forward\n    x = F.relu(self.fc1(x))\n  File \"/opt/conda/envs/car-racing-evaluation/lib/python3.10/site-packages/torch/nn/modules/module.py\", line 1518, in _wrapped_call_impl\n    return self._call_impl(*args, **kwargs)\n  File \"/opt/conda/envs/car-racing-evaluation/lib/python3.10/site-packages/torch/nn/modules/module.py\", line 1527, in _call_impl\n    return forward_call(*args, **kwargs)\n  File \"/opt/conda/envs/car-racing-evaluation/lib/python3.10/site-packages/torch/nn/modules/linear.py\", line 114, in forward\n    return F.linear(input, self.weight, self.bias)\nRuntimeError: mat1 and mat2 shapes cannot be multiplied (1x9 and 453x64)\n]",
-            "mean": -1,
-            "std": -1,
-            "commit-SHA": "6a52139e68d70637a7e27d6c4598109c4cba551c"
+            "error": false,
+            "error_msg": "",
+            "mean": 64.9772250312294,
+            "std": 0.0,
+            "commit-SHA": "d32927f692c87d968efdb4c3c2e8976fa32df5e1"
         },
         "44": {
             "error": false,
@@ -347,15 +347,15 @@
         "98": {
             "error": false,
             "error_msg": "",
-            "mean": 59.24209165302973,
-            "std": 5.755711215218943,
+            "mean": 62.139918107085535,
+            "std": 8.536625172205532,
             "commit-SHA": "76dc3d6d23df095b2e99d91d6fbc6018759526e1"
         },
         "99": {
             "error": false,
             "error_msg": "",
-            "mean": 100.00953374444997,
-            "std": 0.16853368185607165,
+            "mean": 99.98785997629895,
+            "std": 0.22748154526685596,
             "commit-SHA": "d48180065824b8ac6ba52c80ec687cda7f3b3be1"
         }
     }
