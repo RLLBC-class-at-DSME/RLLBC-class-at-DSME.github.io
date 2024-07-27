@@ -1,13 +1,6 @@
 {
-    "timestamp": "2024-07-27_22-19-35",
+    "timestamp": "2024-07-27_23-18-31",
     "groups": {
-        "1": {
-            "error": false,
-            "error_msg": "",
-            "mean": -0.5877533375307917,
-            "std": 1.1102230246251565e-16,
-            "commit-SHA": "4c9180fcfdf8224b87be865280f3589412f05faf"
-        },
         "3": {
             "error": false,
             "error_msg": "",
@@ -41,7 +34,7 @@
             "error_msg": "",
             "mean": -0.5877533375307917,
             "std": 1.1102230246251565e-16,
-            "commit-SHA": "8393f26786a3ff8968374304d8ccaea40b47c47a"
+            "commit-SHA": "4c9180fcfdf8224b87be865280f3589412f05faf"
         },
         "11": {
             "error": false,
@@ -347,15 +340,15 @@
         "98": {
             "error": false,
             "error_msg": "",
-            "mean": 62.139918107085535,
-            "std": 8.536625172205532,
+            "mean": 65.22906200865401,
+            "std": 8.070914673244989,
             "commit-SHA": "76dc3d6d23df095b2e99d91d6fbc6018759526e1"
         },
         "99": {
             "error": false,
             "error_msg": "",
-            "mean": 99.98785997629895,
-            "std": 0.22748154526685596,
+            "mean": 99.92399881212802,
+            "std": 0.1923306683881821,
             "commit-SHA": "d48180065824b8ac6ba52c80ec687cda7f3b3be1"
         }
     }
