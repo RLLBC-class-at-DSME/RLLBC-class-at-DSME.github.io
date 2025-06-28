@@ -1,25 +1,382 @@
 {
     "groups": {
-        "97": {
+        "02": {
+            "error": false,
+            "mean": -0.5877533375307917,
+            "std": 1.1102230246251565e-16,
+            "commit-SHA": "ea38086d0f76fc2537ea80c549677f2f047eaa41",
+            "eval-timestamp": "2025-06-28_09-53-09"
+        },
+        "03": {
+            "error": false,
+            "mean": -0.5877533375307917,
+            "std": 1.1102230246251565e-16,
+            "commit-SHA": "ea38086d0f76fc2537ea80c549677f2f047eaa41",
+            "eval-timestamp": "2025-06-28_09-53-09"
+        },
+        "04": {
+            "error": false,
+            "mean": -0.5877533375307917,
+            "std": 1.1102230246251565e-16,
+            "commit-SHA": "ea38086d0f76fc2537ea80c549677f2f047eaa41",
+            "eval-timestamp": "2025-06-28_09-53-09"
+        },
+        "05": {
+            "error": false,
+            "mean": -0.5877533375307917,
+            "std": 1.1102230246251565e-16,
+            "commit-SHA": "ea38086d0f76fc2537ea80c549677f2f047eaa41",
+            "eval-timestamp": "2025-06-28_09-53-09"
+        },
+        "06": {
+            "error": false,
+            "mean": -0.5877533375307917,
+            "std": 1.1102230246251565e-16,
+            "commit-SHA": "ea38086d0f76fc2537ea80c549677f2f047eaa41",
+            "eval-timestamp": "2025-06-28_09-53-09"
+        },
+        "07": {
+            "error": false,
+            "mean": -0.5877533375307917,
+            "std": 1.1102230246251565e-16,
+            "commit-SHA": "ea38086d0f76fc2537ea80c549677f2f047eaa41",
+            "eval-timestamp": "2025-06-28_09-53-09"
+        },
+        "08": {
+            "error": false,
+            "mean": -0.5877533375307917,
+            "std": 1.1102230246251565e-16,
+            "commit-SHA": "ea38086d0f76fc2537ea80c549677f2f047eaa41",
+            "eval-timestamp": "2025-06-28_09-53-09"
+        },
+        "100": {
+            "error": false,
+            "mean": -0.5877533375307917,
+            "std": 1.1102230246251565e-16,
+            "commit-SHA": "e55ba68d18bfbdb36999e439d3c3f62e5fafa950",
+            "eval-timestamp": "2025-06-28_09-53-09"
+        },
+        "12": {
+            "error": false,
+            "mean": -0.5877533375307917,
+            "std": 1.1102230246251565e-16,
+            "commit-SHA": "ea38086d0f76fc2537ea80c549677f2f047eaa41",
+            "eval-timestamp": "2025-06-28_09-53-09"
+        },
+        "13": {
+            "error": false,
+            "mean": -0.5877533375307917,
+            "std": 1.1102230246251565e-16,
+            "commit-SHA": "ea38086d0f76fc2537ea80c549677f2f047eaa41",
+            "eval-timestamp": "2025-06-28_09-53-09"
+        },
+        "19": {
+            "error": false,
+            "mean": -0.5877533375307917,
+            "std": 1.1102230246251565e-16,
+            "commit-SHA": "ea38086d0f76fc2537ea80c549677f2f047eaa41",
+            "eval-timestamp": "2025-06-28_09-53-09"
+        },
+        "20": {
+            "error": false,
+            "mean": -0.5877533375307917,
+            "std": 1.1102230246251565e-16,
+            "commit-SHA": "ea38086d0f76fc2537ea80c549677f2f047eaa41",
+            "eval-timestamp": "2025-06-28_09-53-09"
+        },
+        "21": {
+            "error": false,
+            "mean": -0.5877533375307917,
+            "std": 1.1102230246251565e-16,
+            "commit-SHA": "ea38086d0f76fc2537ea80c549677f2f047eaa41",
+            "eval-timestamp": "2025-06-28_09-53-09"
+        },
+        "22": {
+            "error": false,
+            "mean": -0.5877533375307917,
+            "std": 1.1102230246251565e-16,
+            "commit-SHA": "ea38086d0f76fc2537ea80c549677f2f047eaa41",
+            "eval-timestamp": "2025-06-28_09-53-09"
+        },
+        "23": {
+            "error": false,
+            "mean": -0.5877533375307917,
+            "std": 1.1102230246251565e-16,
+            "commit-SHA": "ea38086d0f76fc2537ea80c549677f2f047eaa41",
+            "eval-timestamp": "2025-06-28_09-53-09"
+        },
+        "24": {
+            "error": false,
+            "mean": -0.5877533375307917,
+            "std": 1.1102230246251565e-16,
+            "commit-SHA": "ea38086d0f76fc2537ea80c549677f2f047eaa41",
+            "eval-timestamp": "2025-06-28_09-53-09"
+        },
+        "25": {
+            "error": false,
+            "mean": -0.5877533375307917,
+            "std": 1.1102230246251565e-16,
+            "commit-SHA": "ea38086d0f76fc2537ea80c549677f2f047eaa41",
+            "eval-timestamp": "2025-06-28_09-53-09"
+        },
+        "26": {
+            "error": false,
+            "mean": -0.5877533375307917,
+            "std": 1.1102230246251565e-16,
+            "commit-SHA": "ea38086d0f76fc2537ea80c549677f2f047eaa41",
+            "eval-timestamp": "2025-06-28_09-53-09"
+        },
+        "27": {
+            "error": false,
+            "mean": -0.5877533375307917,
+            "std": 1.1102230246251565e-16,
+            "commit-SHA": "ea38086d0f76fc2537ea80c549677f2f047eaa41",
+            "eval-timestamp": "2025-06-28_09-53-09"
+        },
+        "29": {
+            "error": false,
+            "mean": -0.5877533375307917,
+            "std": 1.1102230246251565e-16,
+            "commit-SHA": "ea38086d0f76fc2537ea80c549677f2f047eaa41",
+            "eval-timestamp": "2025-06-28_09-53-09"
+        },
+        "30": {
+            "error": false,
+            "mean": -0.5877533375307917,
+            "std": 1.1102230246251565e-16,
+            "commit-SHA": "ea38086d0f76fc2537ea80c549677f2f047eaa41",
+            "eval-timestamp": "2025-06-28_09-53-09"
+        },
+        "32": {
+            "error": false,
+            "mean": -0.5877533375307917,
+            "std": 1.1102230246251565e-16,
+            "commit-SHA": "ea38086d0f76fc2537ea80c549677f2f047eaa41",
+            "eval-timestamp": "2025-06-28_09-53-09"
+        },
+        "34": {
+            "error": false,
+            "mean": -0.5877533375307917,
+            "std": 1.1102230246251565e-16,
+            "commit-SHA": "ea38086d0f76fc2537ea80c549677f2f047eaa41",
+            "eval-timestamp": "2025-06-28_09-53-09"
+        },
+        "37": {
+            "error": false,
+            "mean": -0.5877533375307917,
+            "std": 1.1102230246251565e-16,
+            "commit-SHA": "ea38086d0f76fc2537ea80c549677f2f047eaa41",
+            "eval-timestamp": "2025-06-28_09-53-09"
+        },
+        "38": {
+            "error": false,
+            "mean": -0.5877533375307917,
+            "std": 1.1102230246251565e-16,
+            "commit-SHA": "ea38086d0f76fc2537ea80c549677f2f047eaa41",
+            "eval-timestamp": "2025-06-28_09-53-09"
+        },
+        "39": {
+            "error": false,
+            "mean": -0.5877533375307917,
+            "std": 1.1102230246251565e-16,
+            "commit-SHA": "ea38086d0f76fc2537ea80c549677f2f047eaa41",
+            "eval-timestamp": "2025-06-28_09-53-09"
+        },
+        "41": {
+            "error": false,
+            "mean": -0.5877533375307917,
+            "std": 1.1102230246251565e-16,
+            "commit-SHA": "ea38086d0f76fc2537ea80c549677f2f047eaa41",
+            "eval-timestamp": "2025-06-28_09-53-09"
+        },
+        "42": {
+            "error": false,
+            "mean": -0.5877533375307917,
+            "std": 1.1102230246251565e-16,
+            "commit-SHA": "ea38086d0f76fc2537ea80c549677f2f047eaa41",
+            "eval-timestamp": "2025-06-28_09-53-09"
+        },
+        "43": {
+            "error": false,
+            "mean": -0.5877533375307917,
+            "std": 1.1102230246251565e-16,
+            "commit-SHA": "ea38086d0f76fc2537ea80c549677f2f047eaa41",
+            "eval-timestamp": "2025-06-28_09-53-09"
+        },
+        "45": {
+            "error": false,
+            "mean": -0.5877533375307917,
+            "std": 1.1102230246251565e-16,
+            "commit-SHA": "ea38086d0f76fc2537ea80c549677f2f047eaa41",
+            "eval-timestamp": "2025-06-28_09-53-09"
+        },
+        "46": {
+            "error": false,
+            "mean": -0.5877533375307917,
+            "std": 1.1102230246251565e-16,
+            "commit-SHA": "ea38086d0f76fc2537ea80c549677f2f047eaa41",
+            "eval-timestamp": "2025-06-28_09-53-09"
+        },
+        "54": {
+            "error": false,
+            "mean": -0.5877533375307917,
+            "std": 1.1102230246251565e-16,
+            "commit-SHA": "85858f17ac3077d1a41fe120556e1dce8166090f",
+            "eval-timestamp": "2025-06-28_09-53-09"
+        },
+        "55": {
+            "error": false,
+            "mean": -0.5877533375307917,
+            "std": 1.1102230246251565e-16,
+            "commit-SHA": "ea38086d0f76fc2537ea80c549677f2f047eaa41",
+            "eval-timestamp": "2025-06-28_09-53-09"
+        },
+        "60": {
+            "error": false,
+            "mean": -0.5877533375307917,
+            "std": 1.1102230246251565e-16,
+            "commit-SHA": "ea38086d0f76fc2537ea80c549677f2f047eaa41",
+            "eval-timestamp": "2025-06-28_09-53-09"
+        },
+        "63": {
+            "error": false,
+            "mean": -0.5877533375307917,
+            "std": 1.1102230246251565e-16,
+            "commit-SHA": "ea38086d0f76fc2537ea80c549677f2f047eaa41",
+            "eval-timestamp": "2025-06-28_09-53-09"
+        },
+        "64": {
+            "error": true,
+            "mean": -1,
+            "std": -1,
+            "commit-SHA": "5ec0d878415879a7907afdfeb096ada62264edd2",
+            "eval-timestamp": "2025-06-28_09-53-09"
+        },
+        "66": {
+            "error": false,
+            "mean": -0.5877533375307917,
+            "std": 1.1102230246251565e-16,
+            "commit-SHA": "ea38086d0f76fc2537ea80c549677f2f047eaa41",
+            "eval-timestamp": "2025-06-28_09-53-09"
+        },
+        "67": {
+            "error": false,
+            "mean": -0.5877533375307917,
+            "std": 1.1102230246251565e-16,
+            "commit-SHA": "ea38086d0f76fc2537ea80c549677f2f047eaa41",
+            "eval-timestamp": "2025-06-28_09-53-09"
+        },
+        "69": {
+            "error": false,
+            "mean": 39.357385646228785,
+            "std": 0.7454460154914027,
+            "commit-SHA": "6353daf5d452e79da1e92be4e30f3b43127dc84c",
+            "eval-timestamp": "2025-06-28_09-53-09"
+        },
+        "70": {
+            "error": false,
+            "mean": -0.5877533375307917,
+            "std": 1.1102230246251565e-16,
+            "commit-SHA": "ea38086d0f76fc2537ea80c549677f2f047eaa41",
+            "eval-timestamp": "2025-06-28_09-53-09"
+        },
+        "73": {
+            "error": false,
+            "mean": -0.5877533375307917,
+            "std": 1.1102230246251565e-16,
+            "commit-SHA": "ea38086d0f76fc2537ea80c549677f2f047eaa41",
+            "eval-timestamp": "2025-06-28_09-53-09"
+        },
+        "80": {
+            "error": false,
+            "mean": -0.5877533375307917,
+            "std": 1.1102230246251565e-16,
+            "commit-SHA": "ea38086d0f76fc2537ea80c549677f2f047eaa41",
+            "eval-timestamp": "2025-06-28_09-53-09"
+        },
+        "81": {
+            "error": false,
+            "mean": -0.5877533375307917,
+            "std": 1.1102230246251565e-16,
+            "commit-SHA": "ea38086d0f76fc2537ea80c549677f2f047eaa41",
+            "eval-timestamp": "2025-06-28_09-53-09"
+        },
+        "85": {
+            "error": false,
+            "mean": -0.5877533375307917,
+            "std": 1.1102230246251565e-16,
+            "commit-SHA": "ea38086d0f76fc2537ea80c549677f2f047eaa41",
+            "eval-timestamp": "2025-06-28_09-53-09"
+        },
+        "86": {
+            "error": false,
+            "mean": -0.5877533375307917,
+            "std": 1.1102230246251565e-16,
+            "commit-SHA": "ea38086d0f76fc2537ea80c549677f2f047eaa41",
+            "eval-timestamp": "2025-06-28_09-53-09"
+        },
+        "88": {
             "error": false,
             "mean": -0.5877533375307917,
             "std": 1.1102230246251565e-16,
             "commit-SHA": "8393f26786a3ff8968374304d8ccaea40b47c47a",
-            "eval-timestamp": "2025-06-17_10-51-15"
+            "eval-timestamp": "2025-06-28_09-53-09"
         },
-        "98": {
+        "89": {
             "error": false,
-            "mean": 64.21378910443596,
-            "std": 7.498421726169961,
+            "mean": 63.66306460200916,
+            "std": 5.63576334201217,
             "commit-SHA": "76dc3d6d23df095b2e99d91d6fbc6018759526e1",
-            "eval-timestamp": "2025-06-17_10-51-15"
+            "eval-timestamp": "2025-06-28_09-53-09"
+        },
+        "90": {
+            "error": false,
+            "mean": 100.08224565311302,
+            "std": 0.17252447243183253,
+            "commit-SHA": "d48180065824b8ac6ba52c80ec687cda7f3b3be1",
+            "eval-timestamp": "2025-06-28_09-53-09"
+        },
+        "91": {
+            "error": false,
+            "mean": -0.5877533375307917,
+            "std": 1.1102230246251565e-16,
+            "commit-SHA": "ea38086d0f76fc2537ea80c549677f2f047eaa41",
+            "eval-timestamp": "2025-06-28_09-53-09"
+        },
+        "92": {
+            "error": false,
+            "mean": -0.5877533375307917,
+            "std": 1.1102230246251565e-16,
+            "commit-SHA": "ea38086d0f76fc2537ea80c549677f2f047eaa41",
+            "eval-timestamp": "2025-06-28_09-53-09"
+        },
+        "94": {
+            "error": false,
+            "mean": -0.5877533375307917,
+            "std": 1.1102230246251565e-16,
+            "commit-SHA": "ea38086d0f76fc2537ea80c549677f2f047eaa41",
+            "eval-timestamp": "2025-06-28_09-53-09"
+        },
+        "96": {
+            "error": false,
+            "mean": -0.5877533375307917,
+            "std": 1.1102230246251565e-16,
+            "commit-SHA": "ea38086d0f76fc2537ea80c549677f2f047eaa41",
+            "eval-timestamp": "2025-06-28_09-53-09"
+        },
+        "97": {
+            "error": false,
+            "mean": -0.5877533375307917,
+            "std": 1.1102230246251565e-16,
+            "commit-SHA": "ea38086d0f76fc2537ea80c549677f2f047eaa41",
+            "eval-timestamp": "2025-06-28_09-53-09"
         },
         "99": {
             "error": false,
-            "mean": 100.06509656576256,
-            "std": 0.19927444545075232,
-            "commit-SHA": "d48180065824b8ac6ba52c80ec687cda7f3b3be1",
-            "eval-timestamp": "2025-06-17_11-03-16"
+            "mean": -0.5877533375307917,
+            "std": 1.1102230246251565e-16,
+            "commit-SHA": "ea38086d0f76fc2537ea80c549677f2f047eaa41",
+            "eval-timestamp": "2025-06-28_09-53-09"
         }
     }
 }
