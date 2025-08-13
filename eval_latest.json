@@ -1,5 +1,5 @@
 {
-    "timestamp": "2025-08-12_15-52-44",
+    "timestamp": "2025-08-13_14-57-44",
     "groups": {
         "02": {
             "error": false,
@@ -18,9 +18,9 @@
         "04": {
             "error": false,
             "error_msg": "",
-            "mean": 5.028426945605249,
-            "std": 8.881784197001252e-16,
-            "commit-SHA": "e5a7c7262a450332fb71c964cb476aa53f537c60"
+            "mean": 100.74062287252139,
+            "std": 0.23395382170654963,
+            "commit-SHA": "eeda6ff13832b674c559f2e395f9565b89a9d85c"
         },
         "05": {
             "error": false,
@@ -67,9 +67,9 @@
         "13": {
             "error": false,
             "error_msg": "",
-            "mean": -0.5877533375307917,
-            "std": 1.1102230246251565e-16,
-            "commit-SHA": "ea38086d0f76fc2537ea80c549677f2f047eaa41"
+            "mean": 50.12733407370989,
+            "std": 0.0,
+            "commit-SHA": "cd21d8ebd88ba57d2d362d61796a116e2cdff803"
         },
         "15": {
             "error": false,
@@ -247,11 +247,11 @@
             "commit-SHA": "ea38086d0f76fc2537ea80c549677f2f047eaa41"
         },
         "43": {
-            "error": true,
-            "error_msg": "Traceback (most recent call last):\n  File \"/students_repo/group_43/evaluation_script.py\", line 89, in <module>\n    mean_reward, std_reward = evaluate_agent(model_file, convert_obs, convert_action, seed=args.seed, tracks=tracks)\n                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/students_repo/group_43/evaluation_script.py\", line 31, in evaluate_agent\n    model = load_model(model_file)\n            ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/students_repo/group_43/evaluation_script.py\", line 24, in load_model\n    model = pickle.load(model_file)\n            ^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: Can't get attribute 'ActorCritic' on <module '__main__' from '/students_repo/group_43/evaluation_script.py'>\n]",
-            "mean": -1,
-            "std": -1,
-            "commit-SHA": "a97aa90832608099c4e6047303793213dd3ac07a"
+            "error": false,
+            "error_msg": "",
+            "mean": 38.6969903394445,
+            "std": 12.896434381870128,
+            "commit-SHA": "483c8deed99fcb5fda23ced1d53b36e7373b95c6"
         },
         "44": {
             "error": false,
@@ -263,8 +263,8 @@
         "45": {
             "error": false,
             "error_msg": "",
-            "mean": 89.12036650133231,
-            "std": 0.6555736813285494,
+            "mean": 89.1239595571816,
+            "std": 0.5884976901084111,
             "commit-SHA": "630911c466edaf49404e02c016383f8b2b694a97"
         },
         "46": {
@@ -333,8 +333,8 @@
         "69": {
             "error": false,
             "error_msg": "",
-            "mean": 39.087181514572265,
-            "std": 0.8208411224929667,
+            "mean": 32.50394741801615,
+            "std": 13.26731514385783,
             "commit-SHA": "6353daf5d452e79da1e92be4e30f3b43127dc84c"
         },
         "70": {
@@ -396,15 +396,15 @@
         "89": {
             "error": false,
             "error_msg": "",
-            "mean": 67.11515756933059,
-            "std": 4.213324444967826,
+            "mean": 64.99837559677884,
+            "std": 6.550476438733356,
             "commit-SHA": "76dc3d6d23df095b2e99d91d6fbc6018759526e1"
         },
         "90": {
             "error": false,
             "error_msg": "",
-            "mean": 99.92396059988963,
-            "std": 0.19194825489257586,
+            "mean": 99.92814657607254,
+            "std": 0.1075824156621221,
             "commit-SHA": "d48180065824b8ac6ba52c80ec687cda7f3b3be1"
         },
         "91": {
@@ -452,9 +452,9 @@
         "99": {
             "error": false,
             "error_msg": "",
-            "mean": 79.18519341848743,
+            "mean": 82.58346409925227,
             "std": 0.0,
-            "commit-SHA": "00afcc68131d3dd719a13dc39b82b5afcf237917"
+            "commit-SHA": "e88632cc2ae875b692bd163dc3853ea752a34385"
         }
     }
 }
