@@ -1,5 +1,5 @@
 {
-    "timestamp": "2025-08-14_16-00-40",
+    "timestamp": "2025-08-14_16-47-34",
     "groups": {
         "02": {
             "error": false,
@@ -65,10 +65,10 @@
             "commit-SHA": "ea38086d0f76fc2537ea80c549677f2f047eaa41"
         },
         "13": {
-            "error": true,
-            "error_msg": "Evaluation took longer than 60 seconds and timed out.",
-            "mean": -1,
-            "std": -1,
+            "error": false,
+            "error_msg": "",
+            "mean": 78.89287659116293,
+            "std": 0.0,
             "commit-SHA": "1680ee792b7f431d8d88ae5f316c09fd63ac6d0f"
         },
         "15": {
@@ -249,8 +249,8 @@
         "43": {
             "error": false,
             "error_msg": "",
-            "mean": 57.89656359927854,
-            "std": 0.7447013285578775,
+            "mean": 58.540108281217066,
+            "std": 0.614433580749322,
             "commit-SHA": "93cf1ec5ddc30e4d5b5c73bb3c24069bf8015f74"
         },
         "44": {
@@ -263,8 +263,8 @@
         "45": {
             "error": false,
             "error_msg": "",
-            "mean": 89.01332095884611,
-            "std": 0.49975314668456317,
+            "mean": 89.0469336197818,
+            "std": 0.6193485221738735,
             "commit-SHA": "630911c466edaf49404e02c016383f8b2b694a97"
         },
         "46": {
@@ -333,8 +333,8 @@
         "69": {
             "error": false,
             "error_msg": "",
-            "mean": 36.46809546693088,
-            "std": 7.115469778516281,
+            "mean": 35.55629868130198,
+            "std": 10.1771323933006,
             "commit-SHA": "6353daf5d452e79da1e92be4e30f3b43127dc84c"
         },
         "70": {
@@ -396,15 +396,15 @@
         "89": {
             "error": false,
             "error_msg": "",
-            "mean": 67.21484694926878,
-            "std": 6.339633024637727,
+            "mean": 61.68229530411456,
+            "std": 8.271239740895377,
             "commit-SHA": "76dc3d6d23df095b2e99d91d6fbc6018759526e1"
         },
         "90": {
             "error": false,
             "error_msg": "",
-            "mean": 100.02914063720641,
-            "std": 0.16941274561563427,
+            "mean": 100.06461756686276,
+            "std": 0.2017804938330801,
             "commit-SHA": "d48180065824b8ac6ba52c80ec687cda7f3b3be1"
         },
         "91": {
@@ -415,11 +415,11 @@
             "commit-SHA": "ea38086d0f76fc2537ea80c549677f2f047eaa41"
         },
         "92": {
-            "error": true,
-            "error_msg": "Traceback (most recent call last):\n  File \"/students_repo/group_92/evaluation_script.py\", line 89, in <module>\n    mean_reward, std_reward = evaluate_agent(model_file, convert_obs, convert_action, seed=args.seed, tracks=tracks)\n                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/students_repo/group_92/evaluation_script.py\", line 31, in evaluate_agent\n    model = load_model(model_file)\n            ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/students_repo/group_92/evaluation_script.py\", line 24, in load_model\n    model = pickle.load(model_file)\n            ^^^^^^^^^^^^^^^^^^^^^^^\nModuleNotFoundError: No module named 'agent_interface_sac'\n]",
-            "mean": -1,
-            "std": -1,
-            "commit-SHA": "d8f27305e2bc48f0113780bfadd39c54c45ee786"
+            "error": false,
+            "error_msg": "",
+            "mean": 91.5790770866594,
+            "std": 1.1449870041619479,
+            "commit-SHA": "5d8c0d52cd73ecb62e6ff9d76c27d4a590aa62f0"
         },
         "94": {
             "error": false,
