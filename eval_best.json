@@ -247,10 +247,10 @@
         },
         "43": {
             "error": false,
-            "mean": 38.6969903394445,
-            "std": 12.896434381870128,
-            "commit-SHA": "483c8deed99fcb5fda23ced1d53b36e7373b95c6",
-            "eval-timestamp": "2025-08-13_14-57-44"
+            "mean": 58.31376199966502,
+            "std": 0.6923899966388024,
+            "commit-SHA": "93cf1ec5ddc30e4d5b5c73bb3c24069bf8015f74",
+            "eval-timestamp": "2025-08-14_15-01-39"
         },
         "44": {
             "error": false,
