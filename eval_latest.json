@@ -1,5 +1,5 @@
 {
-    "timestamp": "2025-08-15_16-47-34",
+    "timestamp": "2025-08-16_16-51-31",
     "groups": {
         "02": {
             "error": false,
@@ -65,11 +65,11 @@
             "commit-SHA": "ea38086d0f76fc2537ea80c549677f2f047eaa41"
         },
         "13": {
-            "error": true,
-            "error_msg": "Evaluation took longer than 60 seconds and timed out.",
-            "mean": -1,
-            "std": -1,
-            "commit-SHA": "1680ee792b7f431d8d88ae5f316c09fd63ac6d0f"
+            "error": false,
+            "error_msg": "",
+            "mean": 79.11827444591077,
+            "std": 19.71271124914496,
+            "commit-SHA": "471eafdf528c33186935000f3bd4316b84797948"
         },
         "15": {
             "error": false,
@@ -139,7 +139,7 @@
             "error_msg": "Traceback (most recent call last):\n  File \"/students_repo/group_25/evaluation_script.py\", line 89, in <module>\n    mean_reward, std_reward = evaluate_agent(model_file, convert_obs, convert_action, seed=args.seed, tracks=tracks)\n                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/students_repo/group_25/evaluation_script.py\", line 31, in evaluate_agent\n    model = load_model(model_file)\n            ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/students_repo/group_25/evaluation_script.py\", line 24, in load_model\n    model = pickle.load(model_file)\n            ^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: Can't get attribute 'QNetwork' on <module 'agent_interface' from '/students_repo/group_25/agent_interface.py'>\n]",
             "mean": -1,
             "std": -1,
-            "commit-SHA": "9f56a14458486347ad7615c1ec8f2c7331d9c239"
+            "commit-SHA": "72fb111c60e440166e2630fc1bc568939f4eb8cd"
         },
         "26": {
             "error": false,
@@ -200,9 +200,9 @@
         "34": {
             "error": false,
             "error_msg": "",
-            "mean": -0.5877533375307917,
-            "std": 1.1102230246251565e-16,
-            "commit-SHA": "ea38086d0f76fc2537ea80c549677f2f047eaa41"
+            "mean": 88.99170525714322,
+            "std": 0.48132098978149196,
+            "commit-SHA": "042d9266210eec01fbbc78d55f5cd33570820498"
         },
         "36": {
             "error": false,
@@ -228,16 +228,16 @@
         "39": {
             "error": false,
             "error_msg": "",
-            "mean": -0.5877533375307917,
-            "std": 1.1102230246251565e-16,
-            "commit-SHA": "ea38086d0f76fc2537ea80c549677f2f047eaa41"
+            "mean": 10.19212063992153,
+            "std": 0.4528870182004456,
+            "commit-SHA": "12bd38d1a9fea6bcb535240e0aee498b75e4c139"
         },
         "41": {
             "error": false,
             "error_msg": "",
-            "mean": -0.5877533375307917,
-            "std": 1.1102230246251565e-16,
-            "commit-SHA": "58f60984fc895e84ae370f0069d4bce674bed17f"
+            "mean": 17.839561806704022,
+            "std": 2.622970457925409e-12,
+            "commit-SHA": "fea548659e07d1aaef6f15e9a7f439511a503204"
         },
         "42": {
             "error": false,
@@ -249,22 +249,22 @@
         "43": {
             "error": false,
             "error_msg": "",
-            "mean": 58.3678337792263,
-            "std": 0.43736598823282963,
+            "mean": 58.55937555542614,
+            "std": 0.5796419357470192,
             "commit-SHA": "93cf1ec5ddc30e4d5b5c73bb3c24069bf8015f74"
         },
         "44": {
-            "error": false,
-            "error_msg": "",
-            "mean": -0.5877533375307917,
-            "std": 1.1102230246251565e-16,
-            "commit-SHA": "ea38086d0f76fc2537ea80c549677f2f047eaa41"
+            "error": true,
+            "error_msg": "Traceback (most recent call last):\n  File \"/students_repo/group_44/evaluation_script.py\", line 89, in <module>\n    mean_reward, std_reward = evaluate_agent(model_file, convert_obs, convert_action, seed=args.seed, tracks=tracks)\n                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/students_repo/group_44/evaluation_script.py\", line 31, in evaluate_agent\n    model = load_model(model_file)\n            ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/students_repo/group_44/evaluation_script.py\", line 24, in load_model\n    model = pickle.load(model_file)\n            ^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: Can't get attribute 'Actor' on <module '__main__' from '/students_repo/group_44/evaluation_script.py'>\n]",
+            "mean": -1,
+            "std": -1,
+            "commit-SHA": "450fd5aaf96842f3f180147581f1fc045a43c000"
         },
         "45": {
             "error": false,
             "error_msg": "",
-            "mean": 88.58588360409435,
-            "std": 0.7447464077270908,
+            "mean": 86.25247172990227,
+            "std": 8.134073326615425,
             "commit-SHA": "630911c466edaf49404e02c016383f8b2b694a97"
         },
         "46": {
@@ -333,8 +333,8 @@
         "69": {
             "error": false,
             "error_msg": "",
-            "mean": 37.20443202547477,
-            "std": 4.838080198400461,
+            "mean": 33.11532660869989,
+            "std": 10.676964334114134,
             "commit-SHA": "6353daf5d452e79da1e92be4e30f3b43127dc84c"
         },
         "70": {
@@ -396,15 +396,15 @@
         "89": {
             "error": false,
             "error_msg": "",
-            "mean": 62.28329578049753,
-            "std": 7.313356154509247,
+            "mean": 61.95375985664175,
+            "std": 8.524934255142094,
             "commit-SHA": "76dc3d6d23df095b2e99d91d6fbc6018759526e1"
         },
         "90": {
             "error": false,
             "error_msg": "",
-            "mean": 100.08307525020683,
-            "std": 0.2350988104758758,
+            "mean": 99.92422941792272,
+            "std": 0.2619984560141994,
             "commit-SHA": "d48180065824b8ac6ba52c80ec687cda7f3b3be1"
         },
         "91": {
@@ -417,9 +417,9 @@
         "92": {
             "error": false,
             "error_msg": "",
-            "mean": 92.5247217339771,
-            "std": 1.0388134184917743,
-            "commit-SHA": "9df8b7208fd046882b3c1f487c2d1eda7e70745b"
+            "mean": 69.27057038511052,
+            "std": 31.830790048608687,
+            "commit-SHA": "015823ea34a1f2a2a7f4f11420b6a60b5ad7796f"
         },
         "94": {
             "error": false,
