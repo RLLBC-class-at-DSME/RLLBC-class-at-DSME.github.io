@@ -30,10 +30,10 @@
         },
         "06": {
             "error": false,
-            "mean": -0.5877533375307917,
-            "std": 1.1102230246251565e-16,
-            "commit-SHA": "ea38086d0f76fc2537ea80c549677f2f047eaa41",
-            "eval-timestamp": "2025-07-07_11-19-32"
+            "mean": 63.96700807254514,
+            "std": 0.0,
+            "commit-SHA": "eb527b8e7a221568c2bf7c3f81478053c0d46345",
+            "eval-timestamp": "2025-08-17_16-55-29"
         },
         "07": {
             "error": false,
@@ -72,10 +72,10 @@
         },
         "15": {
             "error": false,
-            "mean": -0.5877533375307917,
-            "std": 1.1102230246251565e-16,
-            "commit-SHA": "ea38086d0f76fc2537ea80c549677f2f047eaa41",
-            "eval-timestamp": "2025-07-07_11-19-32"
+            "mean": 7.526687776331511,
+            "std": 0.0,
+            "commit-SHA": "7410b13fc8a417b93d28b565dcd95173bad40cd0",
+            "eval-timestamp": "2025-08-17_16-55-29"
         },
         "17": {
             "error": false,
@@ -226,10 +226,10 @@
         },
         "39": {
             "error": false,
-            "mean": 10.19212063992153,
-            "std": 0.4528870182004456,
-            "commit-SHA": "12bd38d1a9fea6bcb535240e0aee498b75e4c139",
-            "eval-timestamp": "2025-08-16_16-51-31"
+            "mean": 85.56299180634407,
+            "std": 1.467694666806494,
+            "commit-SHA": "681880c877fc92e528ea5abeb1781bb04d60e3b6",
+            "eval-timestamp": "2025-08-17_16-55-29"
         },
         "41": {
             "error": false,

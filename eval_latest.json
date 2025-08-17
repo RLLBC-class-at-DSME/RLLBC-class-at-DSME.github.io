@@ -1,5 +1,5 @@
 {
-    "timestamp": "2025-08-16_16-51-31",
+    "timestamp": "2025-08-17_16-55-29",
     "groups": {
         "02": {
             "error": false,
@@ -9,18 +9,18 @@
             "commit-SHA": "ea38086d0f76fc2537ea80c549677f2f047eaa41"
         },
         "03": {
-            "error": false,
-            "error_msg": "",
-            "mean": -0.5877533375307917,
-            "std": 1.1102230246251565e-16,
-            "commit-SHA": "ea38086d0f76fc2537ea80c549677f2f047eaa41"
+            "error": true,
+            "error_msg": "Traceback (most recent call last):\n  File \"/students_repo/group_03/evaluation_script.py\", line 89, in <module>\n    mean_reward, std_reward = evaluate_agent(model_file, convert_obs, convert_action, seed=args.seed, tracks=tracks)\n                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/students_repo/group_03/evaluation_script.py\", line 52, in evaluate_agent\n    output = model.get_action(state)\n             ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/students_repo/group_03/agent_interface.py\", line 106, in get_action\n    mean, log_std = self.forward(obs)\n                    ^^^^^^^^^^^^^^^^^\n  File \"/students_repo/group_03/agent_interface.py\", line 97, in forward\n    x = F.relu(self.fc1(x))\n               ^^^^^^^^^^^\n  File \"/app/venv_bpa3/lib/python3.11/site-packages/torch/nn/modules/module.py\", line 1751, in _wrapped_call_impl\n    return self._call_impl(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/app/venv_bpa3/lib/python3.11/site-packages/torch/nn/modules/module.py\", line 1762, in _call_impl\n    return forward_call(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/app/venv_bpa3/lib/python3.11/site-packages/torch/nn/modules/linear.py\", line 125, in forward\n    return F.linear(input, self.weight, self.bias)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: mat1 and mat2 shapes cannot be multiplied (1x448 and 453x64)\n]",
+            "mean": -1,
+            "std": -1,
+            "commit-SHA": "537c9029ef2b184fa6c01ad40a3672bcf9273fe3"
         },
         "04": {
             "error": false,
             "error_msg": "",
-            "mean": 100.74062287252139,
-            "std": 0.23395382170654963,
-            "commit-SHA": "04f8a5ac3625c86c0409cd8963db99dc50e85230"
+            "mean": 1.5973108853103928,
+            "std": 0.0,
+            "commit-SHA": "d589382af6f91a81b671af0b3d398409f1ba5cc9"
         },
         "05": {
             "error": false,
@@ -32,9 +32,9 @@
         "06": {
             "error": false,
             "error_msg": "",
-            "mean": -0.5877533375307917,
-            "std": 1.1102230246251565e-16,
-            "commit-SHA": "4962254c634befc10bf428e476cba9100ea6c9bb"
+            "mean": 63.96700807254514,
+            "std": 0.0,
+            "commit-SHA": "eb527b8e7a221568c2bf7c3f81478053c0d46345"
         },
         "07": {
             "error": false,
@@ -65,18 +65,18 @@
             "commit-SHA": "ea38086d0f76fc2537ea80c549677f2f047eaa41"
         },
         "13": {
-            "error": false,
-            "error_msg": "",
-            "mean": 79.11827444591077,
-            "std": 19.71271124914496,
+            "error": true,
+            "error_msg": "Evaluation took longer than 60 seconds and timed out.",
+            "mean": -1,
+            "std": -1,
             "commit-SHA": "471eafdf528c33186935000f3bd4316b84797948"
         },
         "15": {
             "error": false,
             "error_msg": "",
-            "mean": -0.5877533375307917,
-            "std": 1.1102230246251565e-16,
-            "commit-SHA": "ea38086d0f76fc2537ea80c549677f2f047eaa41"
+            "mean": 7.526687776331511,
+            "std": 0.0,
+            "commit-SHA": "7410b13fc8a417b93d28b565dcd95173bad40cd0"
         },
         "17": {
             "error": false,
@@ -228,9 +228,9 @@
         "39": {
             "error": false,
             "error_msg": "",
-            "mean": 10.19212063992153,
-            "std": 0.4528870182004456,
-            "commit-SHA": "12bd38d1a9fea6bcb535240e0aee498b75e4c139"
+            "mean": 85.56299180634407,
+            "std": 1.467694666806494,
+            "commit-SHA": "681880c877fc92e528ea5abeb1781bb04d60e3b6"
         },
         "41": {
             "error": false,
@@ -249,9 +249,9 @@
         "43": {
             "error": false,
             "error_msg": "",
-            "mean": 58.55937555542614,
-            "std": 0.5796419357470192,
-            "commit-SHA": "93cf1ec5ddc30e4d5b5c73bb3c24069bf8015f74"
+            "mean": 1.3221542618049036,
+            "std": 1.6925568870960994,
+            "commit-SHA": "6373dcefe2317a6e0d6a8303c918722482f2417f"
         },
         "44": {
             "error": true,
@@ -263,8 +263,8 @@
         "45": {
             "error": false,
             "error_msg": "",
-            "mean": 86.25247172990227,
-            "std": 8.134073326615425,
+            "mean": 88.88138294305963,
+            "std": 0.5703248459697293,
             "commit-SHA": "630911c466edaf49404e02c016383f8b2b694a97"
         },
         "46": {
@@ -333,8 +333,8 @@
         "69": {
             "error": false,
             "error_msg": "",
-            "mean": 33.11532660869989,
-            "std": 10.676964334114134,
+            "mean": 35.72916747156414,
+            "std": 10.122470805965673,
             "commit-SHA": "6353daf5d452e79da1e92be4e30f3b43127dc84c"
         },
         "70": {
@@ -396,15 +396,15 @@
         "89": {
             "error": false,
             "error_msg": "",
-            "mean": 61.95375985664175,
-            "std": 8.524934255142094,
+            "mean": 62.67217037068415,
+            "std": 8.481653906945867,
             "commit-SHA": "76dc3d6d23df095b2e99d91d6fbc6018759526e1"
         },
         "90": {
             "error": false,
             "error_msg": "",
-            "mean": 99.92422941792272,
-            "std": 0.2619984560141994,
+            "mean": 99.96484948285526,
+            "std": 0.1603032979182991,
             "commit-SHA": "d48180065824b8ac6ba52c80ec687cda7f3b3be1"
         },
         "91": {
@@ -417,8 +417,8 @@
         "92": {
             "error": false,
             "error_msg": "",
-            "mean": 69.27057038511052,
-            "std": 31.830790048608687,
+            "mean": 84.07909579932826,
+            "std": 21.03427513968317,
             "commit-SHA": "015823ea34a1f2a2a7f4f11420b6a60b5ad7796f"
         },
         "94": {
