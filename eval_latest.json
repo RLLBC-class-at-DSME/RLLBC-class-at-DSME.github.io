@@ -1,19 +1,19 @@
 {
-    "timestamp": "2025-08-18_16-59-25",
+    "timestamp": "2025-08-19_13-42-57",
     "groups": {
         "02": {
             "error": false,
             "error_msg": "",
-            "mean": -0.5877533375307917,
-            "std": 1.1102230246251565e-16,
-            "commit-SHA": "ea38086d0f76fc2537ea80c549677f2f047eaa41"
+            "mean": 86.73314328616638,
+            "std": 1.4210854715202004e-14,
+            "commit-SHA": "dd49ad0a21236d55389703b1a0c209755ac1ab31"
         },
         "03": {
             "error": false,
             "error_msg": "",
-            "mean": 79.42628951602997,
-            "std": 1.4210854715202004e-14,
-            "commit-SHA": "51bf3363d8ac3559f84e59a72445ffd25d52ba10"
+            "mean": 81.32616180248527,
+            "std": 0.545007845271371,
+            "commit-SHA": "984de98ec6e58fec7433525848c02153dc4f4d13"
         },
         "04": {
             "error": false,
@@ -46,9 +46,9 @@
         "08": {
             "error": false,
             "error_msg": "",
-            "mean": 76.50953265488377,
-            "std": 1.4210854715202004e-14,
-            "commit-SHA": "aeefb428f5f7956476bc575b0a83139b3d16bfbb"
+            "mean": 87.1560326683609,
+            "std": 0.0,
+            "commit-SHA": "01bc2b359147eaafc006f7cd944c79e783f6f9a8"
         },
         "100": {
             "error": false,
@@ -151,9 +151,9 @@
         "27": {
             "error": false,
             "error_msg": "",
-            "mean": -0.5877533375307917,
-            "std": 1.1102230246251565e-16,
-            "commit-SHA": "ea38086d0f76fc2537ea80c549677f2f047eaa41"
+            "mean": 73.97689181417837,
+            "std": 1.280509587765782,
+            "commit-SHA": "e184cdb99b5ad1ecdd86854a80975e28c8f0ffc0"
         },
         "28": {
             "error": false,
@@ -198,11 +198,11 @@
             "commit-SHA": "33ff7e052178921e956e105766f2d11a931b4e6e"
         },
         "34": {
-            "error": false,
-            "error_msg": "",
-            "mean": 88.99170525714322,
-            "std": 0.48132098978149196,
-            "commit-SHA": "e52221e4a9a33cf1eb28f0b05afc20bc1010c3a5"
+            "error": true,
+            "error_msg": "Traceback (most recent call last):\n  File \"/students_repo/group_34/evaluation_script.py\", line 89, in <module>\n    mean_reward, std_reward = evaluate_agent(model_file, convert_obs, convert_action, seed=args.seed, tracks=tracks)\n                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/students_repo/group_34/evaluation_script.py\", line 52, in evaluate_agent\n    output = model.get_action(state)\n             ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/students_repo/group_34/agent_interface.py\", line 171, in get_action\n    mean, log_std = self.forward(obs)\n                    ^^^^^^^^^^^^^^^^^\n  File \"/students_repo/group_34/agent_interface.py\", line 142, in forward\n    car_state_obs = x[:, :self.car_state_dim]\n                          ^^^^^^^^^^^^^^^^^^\n  File \"/app/venv_bpa3/lib/python3.11/site-packages/torch/nn/modules/module.py\", line 1940, in __getattr__\n    raise AttributeError(\nAttributeError: 'Agent' object has no attribute 'car_state_dim'. Did you mean: 'load_state_dict'?\n]",
+            "mean": -1,
+            "std": -1,
+            "commit-SHA": "d28ce6ce9f00fb1092ba38e732d5be460b1f7527"
         },
         "36": {
             "error": false,
@@ -226,11 +226,11 @@
             "commit-SHA": "ea38086d0f76fc2537ea80c549677f2f047eaa41"
         },
         "39": {
-            "error": true,
-            "error_msg": "Evaluation took longer than 60 seconds and timed out.",
-            "mean": -1,
-            "std": -1,
-            "commit-SHA": "3f4ed55afd58340ca062cd59d7e12524c2cdebd7"
+            "error": false,
+            "error_msg": "",
+            "mean": 85.56299180634407,
+            "std": 1.467694666806494,
+            "commit-SHA": "45a2cf3119394d63d601a700970416624c9ef21f"
         },
         "41": {
             "error": false,
@@ -249,22 +249,22 @@
         "43": {
             "error": false,
             "error_msg": "",
-            "mean": 0.8720049890560123,
-            "std": 0.5968600559618092,
-            "commit-SHA": "6373dcefe2317a6e0d6a8303c918722482f2417f"
+            "mean": 76.29704102119993,
+            "std": 1.4642464065615681,
+            "commit-SHA": "0f6a68cd44ef526e3b660e7d0a5e015f3338d11e"
         },
         "44": {
             "error": false,
             "error_msg": "",
             "mean": 97.474892514717,
             "std": 1.2872319204495641,
-            "commit-SHA": "0bb1d34c6007407c1394c4ff841bab78b4b6308c"
+            "commit-SHA": "9beef3380388c04978956315861b79b65453cca9"
         },
         "45": {
             "error": false,
             "error_msg": "",
-            "mean": 89.1231020931501,
-            "std": 0.4075943145641914,
+            "mean": 88.71379562981086,
+            "std": 0.5836954611494167,
             "commit-SHA": "630911c466edaf49404e02c016383f8b2b694a97"
         },
         "46": {
@@ -333,8 +333,8 @@
         "69": {
             "error": false,
             "error_msg": "",
-            "mean": 35.836560438049375,
-            "std": 10.24646172299568,
+            "mean": 37.228729004411505,
+            "std": 7.081572973854479,
             "commit-SHA": "6353daf5d452e79da1e92be4e30f3b43127dc84c"
         },
         "70": {
@@ -396,15 +396,15 @@
         "89": {
             "error": false,
             "error_msg": "",
-            "mean": 60.0272717490235,
-            "std": 9.806726106345257,
+            "mean": 66.22494344302766,
+            "std": 7.721188136375558,
             "commit-SHA": "76dc3d6d23df095b2e99d91d6fbc6018759526e1"
         },
         "90": {
             "error": false,
             "error_msg": "",
-            "mean": 99.90794630253518,
-            "std": 0.24892135525592435,
+            "mean": 99.92653727636403,
+            "std": 0.2447176237553639,
             "commit-SHA": "d48180065824b8ac6ba52c80ec687cda7f3b3be1"
         },
         "91": {
@@ -417,8 +417,8 @@
         "92": {
             "error": false,
             "error_msg": "",
-            "mean": 67.28326976043815,
-            "std": 35.20026008306557,
+            "mean": 56.80934971449617,
+            "std": 32.973407054432904,
             "commit-SHA": "015823ea34a1f2a2a7f4f11420b6a60b5ad7796f"
         },
         "94": {
