@@ -1,5 +1,5 @@
 {
-    "timestamp": "2025-08-20_14-18-57",
+    "timestamp": "2025-08-21_14-23-15",
     "groups": {
         "02": {
             "error": false,
@@ -13,14 +13,14 @@
             "error_msg": "",
             "mean": 96.73333454541788,
             "std": 0.7728808524469492,
-            "commit-SHA": "d8709c2ab061b459d8e6a9ad8d5bcc9efbf82b11"
+            "commit-SHA": "fd6380d454d4a4d5855caaa74cd669cd52dfdb55"
         },
         "04": {
             "error": false,
             "error_msg": "",
             "mean": 100.74062287252139,
             "std": 0.23395382170654963,
-            "commit-SHA": "6ffc721237d30bf32adb77727549b3137f5483ba"
+            "commit-SHA": "ac3e95efa1facd4c4d04ff4c75e880a8eb4cf43d"
         },
         "05": {
             "error": false,
@@ -74,9 +74,9 @@
         "15": {
             "error": false,
             "error_msg": "",
-            "mean": 7.526687776331511,
+            "mean": 24.128350608965093,
             "std": 0.0,
-            "commit-SHA": "7410b13fc8a417b93d28b565dcd95173bad40cd0"
+            "commit-SHA": "e0a52ccf2a6d1c9531ae70da5fc591f83933ad89"
         },
         "17": {
             "error": false,
@@ -128,18 +128,18 @@
             "commit-SHA": "69a6ab9bd1488b7e36e42d6227c3944b56779556"
         },
         "24": {
-            "error": false,
-            "error_msg": "",
-            "mean": -0.5877533375307917,
-            "std": 1.1102230246251565e-16,
-            "commit-SHA": "ea38086d0f76fc2537ea80c549677f2f047eaa41"
+            "error": true,
+            "error_msg": "Traceback (most recent call last):\n  File \"/students_repo/group_24/evaluation_script.py\", line 89, in <module>\n    mean_reward, std_reward = evaluate_agent(model_file, convert_obs, convert_action, seed=args.seed, tracks=tracks)\n                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/students_repo/group_24/evaluation_script.py\", line 52, in evaluate_agent\n    output = model.get_action(state)\n             ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/app/venv_bpa3/lib/python3.11/site-packages/torch/utils/_contextlib.py\", line 116, in decorate_context\n    return func(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"/students_repo/group_24/agent_interface_ppo.py\", line 33, in get_action\n    obs = (obs - self.obs_mean) / torch.clamp(self.obs_std, min=1e-6)\n           ~~~~^~~~~~~~~~~~~~~\nRuntimeError: The size of tensor a (453) must match the size of tensor b (456) at non-singleton dimension 0\n]",
+            "mean": -1,
+            "std": -1,
+            "commit-SHA": "c637dd145886303dabdc7a3145dc0d936f6bf0a5"
         },
         "25": {
             "error": true,
             "error_msg": "Traceback (most recent call last):\n  File \"/students_repo/group_25/evaluation_script.py\", line 89, in <module>\n    mean_reward, std_reward = evaluate_agent(model_file, convert_obs, convert_action, seed=args.seed, tracks=tracks)\n                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/students_repo/group_25/evaluation_script.py\", line 31, in evaluate_agent\n    model = load_model(model_file)\n            ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/students_repo/group_25/evaluation_script.py\", line 24, in load_model\n    model = pickle.load(model_file)\n            ^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: Can't get attribute 'QNetwork' on <module 'agent_interface' from '/students_repo/group_25/agent_interface.py'>\n]",
             "mean": -1,
             "std": -1,
-            "commit-SHA": "72fb111c60e440166e2630fc1bc568939f4eb8cd"
+            "commit-SHA": "e39e518c4271eb7cc1687128be29e7bdd0071dc7"
         },
         "26": {
             "error": false,
@@ -202,7 +202,7 @@
             "error_msg": "Evaluation took longer than 60 seconds and timed out.",
             "mean": -1,
             "std": -1,
-            "commit-SHA": "f703348259fcfeb9a58385450d0298df2200b00e"
+            "commit-SHA": "a9b97afa5bdb6beacf192e74bc56397eecdcf8e9"
         },
         "36": {
             "error": false,
@@ -221,9 +221,9 @@
         "38": {
             "error": false,
             "error_msg": "",
-            "mean": -0.5877533375307917,
-            "std": 1.1102230246251565e-16,
-            "commit-SHA": "ea38086d0f76fc2537ea80c549677f2f047eaa41"
+            "mean": 11.165886776201235,
+            "std": 0.00028947630381673375,
+            "commit-SHA": "04e1d129c7727e5d4399bd800e441282fb9255dd"
         },
         "39": {
             "error": false,
@@ -235,9 +235,9 @@
         "41": {
             "error": false,
             "error_msg": "",
-            "mean": 39.521423010507206,
-            "std": 0.26978289180389003,
-            "commit-SHA": "6389179e1bbabb69d81bf6573dd31c9587e027d3"
+            "mean": 57.13074080502952,
+            "std": 6.367279913009858,
+            "commit-SHA": "082c91ba752735fca8b5997d5caf47f468ac561c"
         },
         "42": {
             "error": false,
@@ -249,8 +249,8 @@
         "43": {
             "error": false,
             "error_msg": "",
-            "mean": 75.53583405648075,
-            "std": 4.26777358690273,
+            "mean": 76.73234657431173,
+            "std": 0.4031098734538524,
             "commit-SHA": "04fc3904dc480b2244ce6e922553d1a57018de60"
         },
         "44": {
@@ -263,8 +263,8 @@
         "45": {
             "error": false,
             "error_msg": "",
-            "mean": 88.96360958439632,
-            "std": 0.4867901405041332,
+            "mean": 88.96958642519871,
+            "std": 0.42942189590469637,
             "commit-SHA": "630911c466edaf49404e02c016383f8b2b694a97"
         },
         "46": {
@@ -396,15 +396,15 @@
         "89": {
             "error": false,
             "error_msg": "",
-            "mean": 65.82128678997962,
-            "std": 7.72058459377306,
+            "mean": 65.35579313733275,
+            "std": 6.662748250839222,
             "commit-SHA": "76dc3d6d23df095b2e99d91d6fbc6018759526e1"
         },
         "90": {
             "error": false,
             "error_msg": "",
-            "mean": 99.84353476493004,
-            "std": 0.15609058828732597,
+            "mean": 99.9884177336902,
+            "std": 0.14950059161614423,
             "commit-SHA": "d48180065824b8ac6ba52c80ec687cda7f3b3be1"
         },
         "91": {
@@ -417,9 +417,9 @@
         "92": {
             "error": false,
             "error_msg": "",
-            "mean": 81.18401534543048,
-            "std": 22.3337471924737,
-            "commit-SHA": "015823ea34a1f2a2a7f4f11420b6a60b5ad7796f"
+            "mean": 80.12434900032663,
+            "std": 25.332461181899696,
+            "commit-SHA": "7f9630871173fb535e763de2446abc9b22e4404b"
         },
         "94": {
             "error": false,
