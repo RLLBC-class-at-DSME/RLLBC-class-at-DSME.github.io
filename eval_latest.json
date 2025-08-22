@@ -1,12 +1,12 @@
 {
-    "timestamp": "2025-08-21_14-23-15",
+    "timestamp": "2025-08-22_14-27-25",
     "groups": {
         "02": {
-            "error": false,
-            "error_msg": "",
-            "mean": 86.73314328616638,
-            "std": 1.4210854715202004e-14,
-            "commit-SHA": "dd49ad0a21236d55389703b1a0c209755ac1ab31"
+            "error": true,
+            "error_msg": "Traceback (most recent call last):\n  File \"/students_repo/group_02/evaluation_script.py\", line 89, in <module>\n    mean_reward, std_reward = evaluate_agent(model_file, convert_obs, convert_action, seed=args.seed, tracks=tracks)\n                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/students_repo/group_02/evaluation_script.py\", line 31, in evaluate_agent\n    model = load_model(model_file)\n            ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/students_repo/group_02/evaluation_script.py\", line 24, in load_model\n    model = pickle.load(model_file)\n            ^^^^^^^^^^^^^^^^^^^^^^^\nModuleNotFoundError: No module named 'new_agent_interface'\n]",
+            "mean": -1,
+            "std": -1,
+            "commit-SHA": "2df5d92e9c529b37ea9a5169795a4fde560ee846"
         },
         "03": {
             "error": false,
@@ -74,9 +74,9 @@
         "15": {
             "error": false,
             "error_msg": "",
-            "mean": 24.128350608965093,
-            "std": 0.0,
-            "commit-SHA": "e0a52ccf2a6d1c9531ae70da5fc591f83933ad89"
+            "mean": 58.518359718947146,
+            "std": 7.105427357601002e-15,
+            "commit-SHA": "b7ec554465a23c9db7935651aacd4deda1c28e26"
         },
         "17": {
             "error": false,
@@ -129,10 +129,10 @@
         },
         "24": {
             "error": true,
-            "error_msg": "Traceback (most recent call last):\n  File \"/students_repo/group_24/evaluation_script.py\", line 89, in <module>\n    mean_reward, std_reward = evaluate_agent(model_file, convert_obs, convert_action, seed=args.seed, tracks=tracks)\n                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/students_repo/group_24/evaluation_script.py\", line 52, in evaluate_agent\n    output = model.get_action(state)\n             ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/app/venv_bpa3/lib/python3.11/site-packages/torch/utils/_contextlib.py\", line 116, in decorate_context\n    return func(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"/students_repo/group_24/agent_interface_ppo.py\", line 33, in get_action\n    obs = (obs - self.obs_mean) / torch.clamp(self.obs_std, min=1e-6)\n           ~~~~^~~~~~~~~~~~~~~\nRuntimeError: The size of tensor a (453) must match the size of tensor b (456) at non-singleton dimension 0\n]",
+            "error_msg": "Traceback (most recent call last):\n  File \"/students_repo/group_24/evaluation_script.py\", line 89, in <module>\n    mean_reward, std_reward = evaluate_agent(model_file, convert_obs, convert_action, seed=args.seed, tracks=tracks)\n                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/students_repo/group_24/evaluation_script.py\", line 31, in evaluate_agent\n    model = load_model(model_file)\n            ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/students_repo/group_24/evaluation_script.py\", line 24, in load_model\n    model = pickle.load(model_file)\n            ^^^^^^^^^^^^^^^^^^^^^^^\nModuleNotFoundError: No module named 'agent_interface_ppo'\n]",
             "mean": -1,
             "std": -1,
-            "commit-SHA": "c637dd145886303dabdc7a3145dc0d936f6bf0a5"
+            "commit-SHA": "4b1a20c6cb77d874cf517242f481cb47c4965b58"
         },
         "25": {
             "error": true,
@@ -202,7 +202,7 @@
             "error_msg": "Evaluation took longer than 60 seconds and timed out.",
             "mean": -1,
             "std": -1,
-            "commit-SHA": "a9b97afa5bdb6beacf192e74bc56397eecdcf8e9"
+            "commit-SHA": "45aed4ceab95ea901ce111daecd4c857020fa62b"
         },
         "36": {
             "error": false,
@@ -249,8 +249,8 @@
         "43": {
             "error": false,
             "error_msg": "",
-            "mean": 76.73234657431173,
-            "std": 0.4031098734538524,
+            "mean": 76.59376698344003,
+            "std": 0.8407555051137441,
             "commit-SHA": "04fc3904dc480b2244ce6e922553d1a57018de60"
         },
         "44": {
@@ -263,8 +263,8 @@
         "45": {
             "error": false,
             "error_msg": "",
-            "mean": 88.96958642519871,
-            "std": 0.42942189590469637,
+            "mean": 89.32905676410626,
+            "std": 0.3412558632454371,
             "commit-SHA": "630911c466edaf49404e02c016383f8b2b694a97"
         },
         "46": {
@@ -314,7 +314,7 @@
             "error_msg": "Traceback (most recent call last):\n  File \"/students_repo/group_64/evaluation_script.py\", line 66, in <module>\n    from agent_interface import convert_obs, convert_action\nModuleNotFoundError: No module named 'agent_interface'\n]",
             "mean": -1,
             "std": -1,
-            "commit-SHA": "5ec0d878415879a7907afdfeb096ada62264edd2"
+            "commit-SHA": "2a510913e8df86a1cb17096063c56a94835bb8c8"
         },
         "66": {
             "error": false,
@@ -396,15 +396,15 @@
         "89": {
             "error": false,
             "error_msg": "",
-            "mean": 65.35579313733275,
-            "std": 6.662748250839222,
+            "mean": 64.81480434454012,
+            "std": 4.982084015192618,
             "commit-SHA": "76dc3d6d23df095b2e99d91d6fbc6018759526e1"
         },
         "90": {
             "error": false,
             "error_msg": "",
-            "mean": 99.9884177336902,
-            "std": 0.14950059161614423,
+            "mean": 99.9866617300914,
+            "std": 0.22264527312889462,
             "commit-SHA": "d48180065824b8ac6ba52c80ec687cda7f3b3be1"
         },
         "91": {
@@ -417,9 +417,9 @@
         "92": {
             "error": false,
             "error_msg": "",
-            "mean": 80.12434900032663,
-            "std": 25.332461181899696,
-            "commit-SHA": "7f9630871173fb535e763de2446abc9b22e4404b"
+            "mean": 102.6723321488299,
+            "std": 0.25252985074577844,
+            "commit-SHA": "48bcbedb8faa79d167ba6b980cadcf9f5e9f86b8"
         },
         "94": {
             "error": false,
