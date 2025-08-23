@@ -1,12 +1,12 @@
 {
-    "timestamp": "2025-08-22_14-27-25",
+    "timestamp": "2025-08-23_14-31-33",
     "groups": {
         "02": {
-            "error": true,
-            "error_msg": "Traceback (most recent call last):\n  File \"/students_repo/group_02/evaluation_script.py\", line 89, in <module>\n    mean_reward, std_reward = evaluate_agent(model_file, convert_obs, convert_action, seed=args.seed, tracks=tracks)\n                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/students_repo/group_02/evaluation_script.py\", line 31, in evaluate_agent\n    model = load_model(model_file)\n            ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/students_repo/group_02/evaluation_script.py\", line 24, in load_model\n    model = pickle.load(model_file)\n            ^^^^^^^^^^^^^^^^^^^^^^^\nModuleNotFoundError: No module named 'new_agent_interface'\n]",
-            "mean": -1,
-            "std": -1,
-            "commit-SHA": "2df5d92e9c529b37ea9a5169795a4fde560ee846"
+            "error": false,
+            "error_msg": "",
+            "mean": 86.73314328616638,
+            "std": 1.4210854715202004e-14,
+            "commit-SHA": "b409cadc7cb4aeca8c24bfb8ac4fdc7c60265e93"
         },
         "03": {
             "error": false,
@@ -48,7 +48,7 @@
             "error_msg": "",
             "mean": 90.9536461528298,
             "std": 0.0,
-            "commit-SHA": "6428abb4ab7e86ecf000113b8ebd486f15879a45"
+            "commit-SHA": "d790e894f0b36cbdfded08e7138c963792aa82f5"
         },
         "100": {
             "error": false,
@@ -76,7 +76,7 @@
             "error_msg": "",
             "mean": 58.518359718947146,
             "std": 7.105427357601002e-15,
-            "commit-SHA": "b7ec554465a23c9db7935651aacd4deda1c28e26"
+            "commit-SHA": "19029c0b044a86e546c73434acd2f212ba0622cc"
         },
         "17": {
             "error": false,
@@ -128,11 +128,11 @@
             "commit-SHA": "69a6ab9bd1488b7e36e42d6227c3944b56779556"
         },
         "24": {
-            "error": true,
-            "error_msg": "Traceback (most recent call last):\n  File \"/students_repo/group_24/evaluation_script.py\", line 89, in <module>\n    mean_reward, std_reward = evaluate_agent(model_file, convert_obs, convert_action, seed=args.seed, tracks=tracks)\n                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/students_repo/group_24/evaluation_script.py\", line 31, in evaluate_agent\n    model = load_model(model_file)\n            ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/students_repo/group_24/evaluation_script.py\", line 24, in load_model\n    model = pickle.load(model_file)\n            ^^^^^^^^^^^^^^^^^^^^^^^\nModuleNotFoundError: No module named 'agent_interface_ppo'\n]",
-            "mean": -1,
-            "std": -1,
-            "commit-SHA": "4b1a20c6cb77d874cf517242f481cb47c4965b58"
+            "error": false,
+            "error_msg": "",
+            "mean": 0.14467084208821132,
+            "std": 0.06907608592256897,
+            "commit-SHA": "6eb96c6d3fcc3e11cc68c7db676c2f0d3f3bc36a"
         },
         "25": {
             "error": true,
@@ -249,8 +249,8 @@
         "43": {
             "error": false,
             "error_msg": "",
-            "mean": 76.59376698344003,
-            "std": 0.8407555051137441,
+            "mean": 75.36036833991442,
+            "std": 4.072551228871565,
             "commit-SHA": "04fc3904dc480b2244ce6e922553d1a57018de60"
         },
         "44": {
@@ -263,8 +263,8 @@
         "45": {
             "error": false,
             "error_msg": "",
-            "mean": 89.32905676410626,
-            "std": 0.3412558632454371,
+            "mean": 88.99288067715388,
+            "std": 0.7114134375532832,
             "commit-SHA": "630911c466edaf49404e02c016383f8b2b694a97"
         },
         "46": {
@@ -314,7 +314,7 @@
             "error_msg": "Traceback (most recent call last):\n  File \"/students_repo/group_64/evaluation_script.py\", line 66, in <module>\n    from agent_interface import convert_obs, convert_action\nModuleNotFoundError: No module named 'agent_interface'\n]",
             "mean": -1,
             "std": -1,
-            "commit-SHA": "2a510913e8df86a1cb17096063c56a94835bb8c8"
+            "commit-SHA": "a2dd1bf2439ea4dd8707650624c95d55c4c26ae1"
         },
         "66": {
             "error": false,
@@ -368,9 +368,9 @@
         "85": {
             "error": false,
             "error_msg": "",
-            "mean": -0.5877533375307917,
-            "std": 1.1102230246251565e-16,
-            "commit-SHA": "ea38086d0f76fc2537ea80c549677f2f047eaa41"
+            "mean": 86.22432563339356,
+            "std": 1.7388016877732202,
+            "commit-SHA": "f4936999bcca7555871cba2a965e47d3d300545e"
         },
         "86": {
             "error": false,
@@ -396,30 +396,30 @@
         "89": {
             "error": false,
             "error_msg": "",
-            "mean": 64.81480434454012,
-            "std": 4.982084015192618,
+            "mean": 64.92217753735126,
+            "std": 7.950245374984267,
             "commit-SHA": "76dc3d6d23df095b2e99d91d6fbc6018759526e1"
         },
         "90": {
             "error": false,
             "error_msg": "",
-            "mean": 99.9866617300914,
-            "std": 0.22264527312889462,
+            "mean": 99.90864688100098,
+            "std": 0.28598030807818814,
             "commit-SHA": "d48180065824b8ac6ba52c80ec687cda7f3b3be1"
         },
         "91": {
             "error": false,
             "error_msg": "",
-            "mean": 77.83978688705729,
-            "std": 0.6497921819125523,
-            "commit-SHA": "a8b773aaa15b7f1490f76f6af3f146306de9b88e"
+            "mean": 87.67600096936962,
+            "std": 1.574076107977475,
+            "commit-SHA": "1a33a3c8b7377c63c918add4e4d1f052f3bb7227"
         },
         "92": {
             "error": false,
             "error_msg": "",
-            "mean": 102.6723321488299,
-            "std": 0.25252985074577844,
-            "commit-SHA": "48bcbedb8faa79d167ba6b980cadcf9f5e9f86b8"
+            "mean": 102.6755846994934,
+            "std": 0.17494250215239043,
+            "commit-SHA": "756b79b6d9d10b5d2c3777ec72fa3ed327d46e65"
         },
         "94": {
             "error": false,
@@ -436,11 +436,11 @@
             "commit-SHA": "ea38086d0f76fc2537ea80c549677f2f047eaa41"
         },
         "97": {
-            "error": false,
-            "error_msg": "",
-            "mean": -0.5877533375307917,
-            "std": 1.1102230246251565e-16,
-            "commit-SHA": "ea38086d0f76fc2537ea80c549677f2f047eaa41"
+            "error": true,
+            "error_msg": "Traceback (most recent call last):\n  File \"/students_repo/group_97/evaluation_script.py\", line 89, in <module>\n    mean_reward, std_reward = evaluate_agent(model_file, convert_obs, convert_action, seed=args.seed, tracks=tracks)\n                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/students_repo/group_97/evaluation_script.py\", line 52, in evaluate_agent\n    output = model.get_action(state)\n             ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/students_repo/group_97/agent_interface.py\", line 587, in get_action\n    x_n = self.norm_obs(x)\n          ^^^^^^^^^^^^^^^^\n  File \"/students_repo/group_97/agent_interface.py\", line 568, in norm_obs\n    return self.obs_norm(x)\n           ^^^^^^^^^^^^^\n  File \"/app/venv_bpa3/lib/python3.11/site-packages/torch/nn/modules/module.py\", line 1940, in __getattr__\n    raise AttributeError(\nAttributeError: 'Agent' object has no attribute 'obs_norm'\n]",
+            "mean": -1,
+            "std": -1,
+            "commit-SHA": "22d65a4383a864cf7b55a617a4080423bd27794c"
         },
         "98": {
             "error": false,
