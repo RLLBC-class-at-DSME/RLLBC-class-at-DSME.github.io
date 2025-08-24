@@ -1,5 +1,5 @@
 {
-    "timestamp": "2025-08-23_14-31-33",
+    "timestamp": "2025-08-24_14-36-40",
     "groups": {
         "02": {
             "error": false,
@@ -76,7 +76,7 @@
             "error_msg": "",
             "mean": 58.518359718947146,
             "std": 7.105427357601002e-15,
-            "commit-SHA": "19029c0b044a86e546c73434acd2f212ba0622cc"
+            "commit-SHA": "2a99c469d30ac0bf75cace872af71d22c803ddd0"
         },
         "17": {
             "error": false,
@@ -130,16 +130,16 @@
         "24": {
             "error": false,
             "error_msg": "",
-            "mean": 0.14467084208821132,
-            "std": 0.06907608592256897,
-            "commit-SHA": "6eb96c6d3fcc3e11cc68c7db676c2f0d3f3bc36a"
+            "mean": 49.0584684135659,
+            "std": 16.46508377160855,
+            "commit-SHA": "ad1885eb9014c7734267f094a9d77b646178e5e6"
         },
         "25": {
-            "error": true,
-            "error_msg": "Traceback (most recent call last):\n  File \"/students_repo/group_25/evaluation_script.py\", line 89, in <module>\n    mean_reward, std_reward = evaluate_agent(model_file, convert_obs, convert_action, seed=args.seed, tracks=tracks)\n                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/students_repo/group_25/evaluation_script.py\", line 31, in evaluate_agent\n    model = load_model(model_file)\n            ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/students_repo/group_25/evaluation_script.py\", line 24, in load_model\n    model = pickle.load(model_file)\n            ^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: Can't get attribute 'QNetwork' on <module 'agent_interface' from '/students_repo/group_25/agent_interface.py'>\n]",
-            "mean": -1,
-            "std": -1,
-            "commit-SHA": "e39e518c4271eb7cc1687128be29e7bdd0071dc7"
+            "error": false,
+            "error_msg": "",
+            "mean": -0.5877533375307917,
+            "std": 1.1102230246251565e-16,
+            "commit-SHA": "188be45dd1a81317f729cbfadcec72d7004562ec"
         },
         "26": {
             "error": false,
@@ -202,7 +202,7 @@
             "error_msg": "Evaluation took longer than 60 seconds and timed out.",
             "mean": -1,
             "std": -1,
-            "commit-SHA": "45aed4ceab95ea901ce111daecd4c857020fa62b"
+            "commit-SHA": "aa6dba60a6662f61308f102967ca2a06b4c8be95"
         },
         "36": {
             "error": false,
@@ -249,8 +249,8 @@
         "43": {
             "error": false,
             "error_msg": "",
-            "mean": 75.36036833991442,
-            "std": 4.072551228871565,
+            "mean": 76.67388952971693,
+            "std": 0.24781372951136812,
             "commit-SHA": "04fc3904dc480b2244ce6e922553d1a57018de60"
         },
         "44": {
@@ -263,8 +263,8 @@
         "45": {
             "error": false,
             "error_msg": "",
-            "mean": 88.99288067715388,
-            "std": 0.7114134375532832,
+            "mean": 89.33429227876996,
+            "std": 0.5890853396399994,
             "commit-SHA": "630911c466edaf49404e02c016383f8b2b694a97"
         },
         "46": {
@@ -311,10 +311,10 @@
         },
         "64": {
             "error": true,
-            "error_msg": "Traceback (most recent call last):\n  File \"/students_repo/group_64/evaluation_script.py\", line 66, in <module>\n    from agent_interface import convert_obs, convert_action\nModuleNotFoundError: No module named 'agent_interface'\n]",
+            "error_msg": "Traceback (most recent call last):\n  File \"/students_repo/group_64/evaluation_script.py\", line 89, in <module>\n    mean_reward, std_reward = evaluate_agent(model_file, convert_obs, convert_action, seed=args.seed, tracks=tracks)\n                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/students_repo/group_64/evaluation_script.py\", line 31, in evaluate_agent\n    model = load_model(model_file)\n            ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/students_repo/group_64/evaluation_script.py\", line 23, in load_model\n    with open(file_path, 'rb') as model_file:\n         ^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: 'models/model.obj'\n]",
             "mean": -1,
             "std": -1,
-            "commit-SHA": "a2dd1bf2439ea4dd8707650624c95d55c4c26ae1"
+            "commit-SHA": "b2bf3b5fd7a7cd11cd0e5db620709c5a5fda9302"
         },
         "66": {
             "error": false,
@@ -368,8 +368,8 @@
         "85": {
             "error": false,
             "error_msg": "",
-            "mean": 86.22432563339356,
-            "std": 1.7388016877732202,
+            "mean": 79.31893607286665,
+            "std": 19.65623615953816,
             "commit-SHA": "f4936999bcca7555871cba2a965e47d3d300545e"
         },
         "86": {
@@ -396,15 +396,15 @@
         "89": {
             "error": false,
             "error_msg": "",
-            "mean": 64.92217753735126,
-            "std": 7.950245374984267,
+            "mean": 65.88771831607987,
+            "std": 5.192045839696985,
             "commit-SHA": "76dc3d6d23df095b2e99d91d6fbc6018759526e1"
         },
         "90": {
             "error": false,
             "error_msg": "",
-            "mean": 99.90864688100098,
-            "std": 0.28598030807818814,
+            "mean": 99.90808210926903,
+            "std": 0.19664684734106141,
             "commit-SHA": "d48180065824b8ac6ba52c80ec687cda7f3b3be1"
         },
         "91": {
@@ -417,9 +417,9 @@
         "92": {
             "error": false,
             "error_msg": "",
-            "mean": 102.6755846994934,
-            "std": 0.17494250215239043,
-            "commit-SHA": "756b79b6d9d10b5d2c3777ec72fa3ed327d46e65"
+            "mean": 104.14198123977515,
+            "std": 0.1434966426948656,
+            "commit-SHA": "7da72fd06a834d45521d23b710d8e1471445f0ba"
         },
         "94": {
             "error": false,
