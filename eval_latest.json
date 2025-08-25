@@ -1,5 +1,5 @@
 {
-    "timestamp": "2025-08-24_14-36-40",
+    "timestamp": "2025-08-25_14-41-57",
     "groups": {
         "02": {
             "error": false,
@@ -139,7 +139,7 @@
             "error_msg": "",
             "mean": -0.5877533375307917,
             "std": 1.1102230246251565e-16,
-            "commit-SHA": "188be45dd1a81317f729cbfadcec72d7004562ec"
+            "commit-SHA": "f2bc92190c923b0e6cae908db77923a4ff3ba399"
         },
         "26": {
             "error": false,
@@ -249,8 +249,8 @@
         "43": {
             "error": false,
             "error_msg": "",
-            "mean": 76.67388952971693,
-            "std": 0.24781372951136812,
+            "mean": 76.91866063176312,
+            "std": 0.5538453426696303,
             "commit-SHA": "04fc3904dc480b2244ce6e922553d1a57018de60"
         },
         "44": {
@@ -263,8 +263,8 @@
         "45": {
             "error": false,
             "error_msg": "",
-            "mean": 89.33429227876996,
-            "std": 0.5890853396399994,
+            "mean": 88.9858756280523,
+            "std": 0.5966888345713625,
             "commit-SHA": "630911c466edaf49404e02c016383f8b2b694a97"
         },
         "46": {
@@ -310,11 +310,11 @@
             "commit-SHA": "ea38086d0f76fc2537ea80c549677f2f047eaa41"
         },
         "64": {
-            "error": true,
-            "error_msg": "Traceback (most recent call last):\n  File \"/students_repo/group_64/evaluation_script.py\", line 89, in <module>\n    mean_reward, std_reward = evaluate_agent(model_file, convert_obs, convert_action, seed=args.seed, tracks=tracks)\n                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/students_repo/group_64/evaluation_script.py\", line 31, in evaluate_agent\n    model = load_model(model_file)\n            ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/students_repo/group_64/evaluation_script.py\", line 23, in load_model\n    with open(file_path, 'rb') as model_file:\n         ^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: 'models/model.obj'\n]",
-            "mean": -1,
-            "std": -1,
-            "commit-SHA": "b2bf3b5fd7a7cd11cd0e5db620709c5a5fda9302"
+            "error": false,
+            "error_msg": "",
+            "mean": 87.31097839021432,
+            "std": 0.30820281307019437,
+            "commit-SHA": "95531ceb99a3a6d06386062e861c0c14f56e4530"
         },
         "66": {
             "error": false,
@@ -368,8 +368,8 @@
         "85": {
             "error": false,
             "error_msg": "",
-            "mean": 79.31893607286665,
-            "std": 19.65623615953816,
+            "mean": 80.15882544469835,
+            "std": 19.293753574576368,
             "commit-SHA": "f4936999bcca7555871cba2a965e47d3d300545e"
         },
         "86": {
@@ -396,15 +396,15 @@
         "89": {
             "error": false,
             "error_msg": "",
-            "mean": 65.88771831607987,
-            "std": 5.192045839696985,
+            "mean": 60.990638173691096,
+            "std": 8.690724209948439,
             "commit-SHA": "76dc3d6d23df095b2e99d91d6fbc6018759526e1"
         },
         "90": {
             "error": false,
             "error_msg": "",
-            "mean": 99.90808210926903,
-            "std": 0.19664684734106141,
+            "mean": 100.02076228419585,
+            "std": 0.2708357086718779,
             "commit-SHA": "d48180065824b8ac6ba52c80ec687cda7f3b3be1"
         },
         "91": {
@@ -412,13 +412,13 @@
             "error_msg": "",
             "mean": 87.67600096936962,
             "std": 1.574076107977475,
-            "commit-SHA": "1a33a3c8b7377c63c918add4e4d1f052f3bb7227"
+            "commit-SHA": "c0eca397caaed525186ee01cbfc73ab690e36187"
         },
         "92": {
             "error": false,
             "error_msg": "",
-            "mean": 104.14198123977515,
-            "std": 0.1434966426948656,
+            "mean": 104.0908269446483,
+            "std": 0.16878944510671176,
             "commit-SHA": "7da72fd06a834d45521d23b710d8e1471445f0ba"
         },
         "94": {
@@ -437,10 +437,10 @@
         },
         "97": {
             "error": true,
-            "error_msg": "Traceback (most recent call last):\n  File \"/students_repo/group_97/evaluation_script.py\", line 89, in <module>\n    mean_reward, std_reward = evaluate_agent(model_file, convert_obs, convert_action, seed=args.seed, tracks=tracks)\n                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/students_repo/group_97/evaluation_script.py\", line 52, in evaluate_agent\n    output = model.get_action(state)\n             ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/students_repo/group_97/agent_interface.py\", line 587, in get_action\n    x_n = self.norm_obs(x)\n          ^^^^^^^^^^^^^^^^\n  File \"/students_repo/group_97/agent_interface.py\", line 568, in norm_obs\n    return self.obs_norm(x)\n           ^^^^^^^^^^^^^\n  File \"/app/venv_bpa3/lib/python3.11/site-packages/torch/nn/modules/module.py\", line 1940, in __getattr__\n    raise AttributeError(\nAttributeError: 'Agent' object has no attribute 'obs_norm'\n]",
+            "error_msg": "Evaluation took longer than 60 seconds and timed out.",
             "mean": -1,
             "std": -1,
-            "commit-SHA": "22d65a4383a864cf7b55a617a4080423bd27794c"
+            "commit-SHA": "02ef5a6d6dd0a9793c35d3e98b994fce4c825c14"
         },
         "98": {
             "error": false,
