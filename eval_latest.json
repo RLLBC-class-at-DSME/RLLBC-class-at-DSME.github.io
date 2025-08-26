@@ -1,5 +1,5 @@
 {
-    "timestamp": "2025-08-25_14-41-57",
+    "timestamp": "2025-08-26_08-15-56",
     "groups": {
         "02": {
             "error": false,
@@ -18,9 +18,9 @@
         "04": {
             "error": false,
             "error_msg": "",
-            "mean": 100.74062287252139,
-            "std": 0.23395382170654963,
-            "commit-SHA": "ac3e95efa1facd4c4d04ff4c75e880a8eb4cf43d"
+            "mean": 99.21996832514667,
+            "std": 0.36396563415518857,
+            "commit-SHA": "d69040b054c3a0067f2d13bedf3e9a631283da7e"
         },
         "05": {
             "error": false,
@@ -65,10 +65,10 @@
             "commit-SHA": "ea38086d0f76fc2537ea80c549677f2f047eaa41"
         },
         "13": {
-            "error": true,
-            "error_msg": "Evaluation took longer than 60 seconds and timed out.",
-            "mean": -1,
-            "std": -1,
+            "error": false,
+            "error_msg": "",
+            "mean": 78.89287659116293,
+            "std": 0.0,
             "commit-SHA": "5481188054b2d201bc9e44860a4cc3855cb0a39d"
         },
         "15": {
@@ -199,7 +199,7 @@
         },
         "34": {
             "error": true,
-            "error_msg": "Evaluation took longer than 60 seconds and timed out.",
+            "error_msg": "Evaluation took longer than 180 seconds and timed out.",
             "mean": -1,
             "std": -1,
             "commit-SHA": "aa6dba60a6662f61308f102967ca2a06b4c8be95"
@@ -249,8 +249,8 @@
         "43": {
             "error": false,
             "error_msg": "",
-            "mean": 76.91866063176312,
-            "std": 0.5538453426696303,
+            "mean": 76.72561382605406,
+            "std": 0.3472699863474581,
             "commit-SHA": "04fc3904dc480b2244ce6e922553d1a57018de60"
         },
         "44": {
@@ -263,8 +263,8 @@
         "45": {
             "error": false,
             "error_msg": "",
-            "mean": 88.9858756280523,
-            "std": 0.5966888345713625,
+            "mean": 89.26335438750482,
+            "std": 0.5745211699344289,
             "commit-SHA": "630911c466edaf49404e02c016383f8b2b694a97"
         },
         "46": {
@@ -368,8 +368,8 @@
         "85": {
             "error": false,
             "error_msg": "",
-            "mean": 80.15882544469835,
-            "std": 19.293753574576368,
+            "mean": 87.02041894317492,
+            "std": 1.1832126464708814,
             "commit-SHA": "f4936999bcca7555871cba2a965e47d3d300545e"
         },
         "86": {
@@ -396,15 +396,15 @@
         "89": {
             "error": false,
             "error_msg": "",
-            "mean": 60.990638173691096,
-            "std": 8.690724209948439,
+            "mean": 63.040401293607125,
+            "std": 8.536767538317223,
             "commit-SHA": "76dc3d6d23df095b2e99d91d6fbc6018759526e1"
         },
         "90": {
             "error": false,
             "error_msg": "",
-            "mean": 100.02076228419585,
-            "std": 0.2708357086718779,
+            "mean": 99.973969084394,
+            "std": 0.15457844246995728,
             "commit-SHA": "d48180065824b8ac6ba52c80ec687cda7f3b3be1"
         },
         "91": {
@@ -417,8 +417,8 @@
         "92": {
             "error": false,
             "error_msg": "",
-            "mean": 104.0908269446483,
-            "std": 0.16878944510671176,
+            "mean": 104.14634387880554,
+            "std": 0.23569709116047738,
             "commit-SHA": "7da72fd06a834d45521d23b710d8e1471445f0ba"
         },
         "94": {
@@ -436,10 +436,10 @@
             "commit-SHA": "ea38086d0f76fc2537ea80c549677f2f047eaa41"
         },
         "97": {
-            "error": true,
-            "error_msg": "Evaluation took longer than 60 seconds and timed out.",
-            "mean": -1,
-            "std": -1,
+            "error": false,
+            "error_msg": "",
+            "mean": 66.2576454940314,
+            "std": 0.5536698854696304,
             "commit-SHA": "02ef5a6d6dd0a9793c35d3e98b994fce4c825c14"
         },
         "98": {
