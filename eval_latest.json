@@ -1,12 +1,12 @@
 {
-    "timestamp": "2025-08-27_10-15-19",
+    "timestamp": "2025-08-28_09-09-11",
     "groups": {
         "02": {
             "error": false,
             "error_msg": "",
             "mean": 93.79429040335937,
             "std": 0.5760812367821655,
-            "commit-SHA": "03a83aba06d487822a00491adae21b41d44a33b5"
+            "commit-SHA": "d0ca0608698a09408ddea4f457b03b891d7fe8d1"
         },
         "03": {
             "error": false,
@@ -20,7 +20,7 @@
             "error_msg": "",
             "mean": 99.21996832514667,
             "std": 0.36396563415518857,
-            "commit-SHA": "677f2d1930e98698eb7a2771b805d1273bffd69e"
+            "commit-SHA": "0a88496761112cd28527ab184d7afa2110a905dd"
         },
         "05": {
             "error": false,
@@ -32,9 +32,9 @@
         "06": {
             "error": false,
             "error_msg": "",
-            "mean": 63.96700807254514,
-            "std": 0.0,
-            "commit-SHA": "eb527b8e7a221568c2bf7c3f81478053c0d46345"
+            "mean": 66.38010042294471,
+            "std": 1.4210854715202004e-14,
+            "commit-SHA": "28ad63f298f4e5f395627e5e27a01918a9704351"
         },
         "07": {
             "error": false,
@@ -46,9 +46,9 @@
         "08": {
             "error": false,
             "error_msg": "",
-            "mean": 90.9536461528298,
-            "std": 0.0,
-            "commit-SHA": "d790e894f0b36cbdfded08e7138c963792aa82f5"
+            "mean": 98.80180730807854,
+            "std": 0.13170484256309986,
+            "commit-SHA": "a01ae1d2266ad60a2259510262acf63e53332bc1"
         },
         "100": {
             "error": false,
@@ -95,9 +95,9 @@
         "19": {
             "error": false,
             "error_msg": "",
-            "mean": -0.5877533375307917,
-            "std": 1.1102230246251565e-16,
-            "commit-SHA": "ea38086d0f76fc2537ea80c549677f2f047eaa41"
+            "mean": -0.3583334720917688,
+            "std": 0.6752780166314415,
+            "commit-SHA": "9aca999ca496a3f832d594bc80684bc4b79bc736"
         },
         "20": {
             "error": false,
@@ -135,11 +135,11 @@
             "commit-SHA": "ad1885eb9014c7734267f094a9d77b646178e5e6"
         },
         "25": {
-            "error": true,
-            "error_msg": "Traceback (most recent call last):\n  File \"/students_repo/group_25/evaluation_script.py\", line 89, in <module>\n    mean_reward, std_reward = evaluate_agent(model_file, convert_obs, convert_action, seed=args.seed, tracks=tracks)\n                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/students_repo/group_25/evaluation_script.py\", line 52, in evaluate_agent\n    output = model.get_action(state)\n             ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/students_repo/group_25/agent_interface.py\", line 125, in get_action\n    return self.actor_net(x)\n           ^^^^^^^^^^^^^^^^^\n  File \"/app/venv_bpa3/lib/python3.11/site-packages/torch/nn/modules/module.py\", line 1751, in _wrapped_call_impl\n    return self._call_impl(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/app/venv_bpa3/lib/python3.11/site-packages/torch/nn/modules/module.py\", line 1762, in _call_impl\n    return forward_call(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/students_repo/group_25/agent_interface.py\", line 96, in forward\n    x = F.relu(self.fc3(x))\n               ^^^^^^^^\n  File \"/app/venv_bpa3/lib/python3.11/site-packages/torch/nn/modules/module.py\", line 1940, in __getattr__\n    raise AttributeError(\nAttributeError: 'ActorNetwork' object has no attribute 'fc3'. Did you mean: 'fc1'?\n]",
-            "mean": -1,
-            "std": -1,
-            "commit-SHA": "90d155728ca854f107289bcdedbac9ff7922f334"
+            "error": false,
+            "error_msg": "",
+            "mean": 0.0,
+            "std": 0.0,
+            "commit-SHA": "2d9f9837e09440124851680db14d07f3aa6e061d"
         },
         "26": {
             "error": false,
@@ -149,11 +149,11 @@
             "commit-SHA": "ea38086d0f76fc2537ea80c549677f2f047eaa41"
         },
         "27": {
-            "error": true,
-            "error_msg": "Traceback (most recent call last):\n  File \"/students_repo/group_27/evaluation_script.py\", line 89, in <module>\n    mean_reward, std_reward = evaluate_agent(model_file, convert_obs, convert_action, seed=args.seed, tracks=tracks)\n                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/students_repo/group_27/evaluation_script.py\", line 31, in evaluate_agent\n    model = load_model(model_file)\n            ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/students_repo/group_27/evaluation_script.py\", line 24, in load_model\n    model = pickle.load(model_file)\n            ^^^^^^^^^^^^^^^^^^^^^^^\nModuleNotFoundError: No module named 'V3_agent_interface'\n]",
-            "mean": -1,
-            "std": -1,
-            "commit-SHA": "d94cb72f367d57a7da179104b6c8d6cd3e4892f6"
+            "error": false,
+            "error_msg": "",
+            "mean": 86.73314328616638,
+            "std": 1.4210854715202004e-14,
+            "commit-SHA": "763218fb6848b8d8ac7f47b221b1b8c017f132d3"
         },
         "28": {
             "error": false,
@@ -200,9 +200,9 @@
         "34": {
             "error": false,
             "error_msg": "",
-            "mean": 98.13171906638624,
-            "std": 0.34840932677412545,
-            "commit-SHA": "aa6dba60a6662f61308f102967ca2a06b4c8be95"
+            "mean": 99.28036423933065,
+            "std": 0.37057401609372637,
+            "commit-SHA": "32262a0f1ea4276965c4190f25189734cfc910a9"
         },
         "36": {
             "error": false,
@@ -249,8 +249,8 @@
         "43": {
             "error": false,
             "error_msg": "",
-            "mean": 70.4402968615215,
-            "std": 16.360754382580723,
+            "mean": 77.03606687920185,
+            "std": 0.5933981268378303,
             "commit-SHA": "04fc3904dc480b2244ce6e922553d1a57018de60"
         },
         "44": {
@@ -263,8 +263,8 @@
         "45": {
             "error": false,
             "error_msg": "",
-            "mean": 89.37646014591584,
-            "std": 0.6148104163289968,
+            "mean": 88.90441303883765,
+            "std": 0.6211639986462385,
             "commit-SHA": "630911c466edaf49404e02c016383f8b2b694a97"
         },
         "46": {
@@ -324,18 +324,18 @@
             "commit-SHA": "ea38086d0f76fc2537ea80c549677f2f047eaa41"
         },
         "67": {
-            "error": false,
-            "error_msg": "",
-            "mean": -0.5877533375307917,
-            "std": 1.1102230246251565e-16,
-            "commit-SHA": "ea38086d0f76fc2537ea80c549677f2f047eaa41"
+            "error": true,
+            "error_msg": "Traceback (most recent call last):\n  File \"/students_repo/group_67/evaluation_script.py\", line 89, in <module>\n    mean_reward, std_reward = evaluate_agent(model_file, convert_obs, convert_action, seed=args.seed, tracks=tracks)\n                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/students_repo/group_67/evaluation_script.py\", line 52, in evaluate_agent\n    output = model.get_action(state)\n             ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/students_repo/group_67/agent_interface.py\", line 177, in get_action\n    mu, log_std = self(obs)\n                  ^^^^^^^^^\n  File \"/app/venv_bpa3/lib/python3.11/site-packages/torch/nn/modules/module.py\", line 1751, in _wrapped_call_impl\n    return self._call_impl(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/app/venv_bpa3/lib/python3.11/site-packages/torch/nn/modules/module.py\", line 1762, in _call_impl\n    return forward_call(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/students_repo/group_67/agent_interface.py\", line 151, in forward\n    x = F.relu(self.fc1(x))\n               ^^^^^^^^^^^\n  File \"/app/venv_bpa3/lib/python3.11/site-packages/torch/nn/modules/module.py\", line 1751, in _wrapped_call_impl\n    return self._call_impl(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/app/venv_bpa3/lib/python3.11/site-packages/torch/nn/modules/module.py\", line 1762, in _call_impl\n    return forward_call(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/app/venv_bpa3/lib/python3.11/site-packages/torch/nn/modules/linear.py\", line 125, in forward\n    return F.linear(input, self.weight, self.bias)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: mat1 and mat2 shapes cannot be multiplied (1x83 and 453x64)\n]",
+            "mean": -1,
+            "std": -1,
+            "commit-SHA": "7b4d4a5c680bea65f0d63e54408ceb7062d8665d"
         },
         "69": {
             "error": false,
             "error_msg": "",
-            "mean": 37.228729004411505,
-            "std": 7.081572973854479,
-            "commit-SHA": "6353daf5d452e79da1e92be4e30f3b43127dc84c"
+            "mean": 84.57433372061973,
+            "std": 0.6211501441139214,
+            "commit-SHA": "668b4cb7de760d5dcd07af690601387c6824d0df"
         },
         "70": {
             "error": false,
@@ -368,8 +368,8 @@
         "85": {
             "error": false,
             "error_msg": "",
-            "mean": 86.90130754949202,
-            "std": 0.9009458434705182,
+            "mean": 87.07271946495374,
+            "std": 0.9114852694399429,
             "commit-SHA": "f4936999bcca7555871cba2a965e47d3d300545e"
         },
         "86": {
@@ -382,9 +382,9 @@
         "87": {
             "error": false,
             "error_msg": "",
-            "mean": -0.5877533375307917,
-            "std": 1.1102230246251565e-16,
-            "commit-SHA": "ea38086d0f76fc2537ea80c549677f2f047eaa41"
+            "mean": 0.8872111545453867,
+            "std": 4.530199718267439e-15,
+            "commit-SHA": "adca0dda86f2b6fe712f3e3fd7a5d29ea31ad37a"
         },
         "88": {
             "error": false,
@@ -396,15 +396,15 @@
         "89": {
             "error": false,
             "error_msg": "",
-            "mean": 64.597489378714,
-            "std": 6.639561518497917,
+            "mean": 64.68606452556845,
+            "std": 8.792332740273173,
             "commit-SHA": "76dc3d6d23df095b2e99d91d6fbc6018759526e1"
         },
         "90": {
             "error": false,
             "error_msg": "",
-            "mean": 99.96192624742575,
-            "std": 0.21906911885182245,
+            "mean": 100.00848745212558,
+            "std": 0.17621924178612952,
             "commit-SHA": "d48180065824b8ac6ba52c80ec687cda7f3b3be1"
         },
         "91": {
@@ -417,8 +417,8 @@
         "92": {
             "error": false,
             "error_msg": "",
-            "mean": 104.10313277347612,
-            "std": 0.1976218061062146,
+            "mean": 104.1323817460437,
+            "std": 0.17626938912062037,
             "commit-SHA": "7da72fd06a834d45521d23b710d8e1471445f0ba"
         },
         "94": {
@@ -438,9 +438,9 @@
         "97": {
             "error": false,
             "error_msg": "",
-            "mean": 93.53442355161275,
-            "std": 0.3509326539462116,
-            "commit-SHA": "a8b4d41eab43bf48d36189f2ad562c393a5b8332"
+            "mean": 86.53344123111042,
+            "std": 0.6320967939845987,
+            "commit-SHA": "f30535686b64f60a2e1150a78cb54f3547288e47"
         },
         "98": {
             "error": false,
